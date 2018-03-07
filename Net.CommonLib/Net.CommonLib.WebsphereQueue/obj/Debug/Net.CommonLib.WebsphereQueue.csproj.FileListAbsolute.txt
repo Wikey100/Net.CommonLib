@@ -1,0 +1,1 @@
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.WebsphereQueue\obj\Debug\Net.CommonLib.WebsphereQueue.csprojResolveAssemblyReference.cache

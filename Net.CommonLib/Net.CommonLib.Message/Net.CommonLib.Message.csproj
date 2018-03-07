@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{308F0F55-87E7-4269-8281-EBFD2B36A366}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WH.AFC.Message</RootNamespace>
+    <AssemblyName>WH.AFC.Message</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Debug\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acc\AccClockSyncCommand.cs" />
+    <Compile Include="Acc\AccParamVersionReport.cs" />
+    <Compile Include="Acc\DeviceRegisterMessage.cs" />
+    <Compile Include="Acc\LineClockExceptionReport.cs" />
+    <Compile Include="Acc\LineClockSyncQuery.cs" />
+    <Compile Include="Acc\LineClockSyncQueryRespone.cs" />
+    <Compile Include="AuditData\AgmAuditDataMessage.cs" />
+    <Compile Include="Command\AgmChangeUseModeMessage.cs" />
+    <Compile Include="Command\AgmGateCloseMessage.cs" />
+    <Compile Include="Command\AgmGateOpenMessage.cs" />
+    <Compile Include="AffairData\AgmTicketBoxChangeMessage.cs" />
+    <Compile Include="AffairData\AgmTicketBoxStartStopMessage.cs" />
+    <Compile Include="BaseMessage.cs" />
+    <Compile Include="AffairData\BcmBillChangeMessage.cs" />
+    <Compile Include="AffairData\BomAdminMessage.cs" />
+    <Compile Include="AuditData\BomOperatorShiftTxnMessage.cs" />
+    <Compile Include="AuditData\BomShiftDataMessage.cs" />
+    <Compile Include="Command\CashBoxAddMessage.cs" />
+    <Compile Include="Command\CashBoxChangeMessage.cs" />
+    <Compile Include="Command\ClockSyncCommandMessage.cs" />
+    <Compile Include="AffairData\CoinBoxAddMessage.cs" />
+    <Compile Include="Command\CoinBoxQtyRequestMessage.cs" />
+    <Compile Include="ControlCommandExtendMessage.cs" />
+    <Compile Include="DeviceOnlineStatMessage.cs" />
+    <Compile Include="LccScopeFile.cs" />
+    <Compile Include="LCTicketing\AdjustTicketStockMessage.cs" />
+    <Compile Include="LCTicketing\PaperPresentReceiptAllotMessage.cs" />
+    <Compile Include="LCTicketing\PreInitTicketSettleMessage.cs" />
+    <Compile Include="LCTicketing\ReplenishmentConfirmMessage.cs" />
+    <Compile Include="LCTicketing\StationTicketStockReportMessage.cs" />
+    <Compile Include="LCTicketing\StockInventoryMessage.cs" />
+    <Compile Include="LCTicketing\TicketAllotBetweenStationMessage.cs" />
+    <Compile Include="LCTicketing\TicketAllotMessage.cs" />
+    <Compile Include="LCTicketing\TicketAllotResponeMessage.cs" />
+    <Compile Include="LCTicketing\TicketAllotStatusChangeNotifyMessage.cs" />
+    <Compile Include="LCTicketing\TicketApplyMessage.cs" />
+    <Compile Include="LCTicketing\TicketApplyResponeMessage.cs" />
+    <Compile Include="LCTicketing\TicketDispatchRepealMessage.cs" />
+    <Compile Include="LCTicketing\TicketTurnInMessage.cs" />
+    <Compile Include="PasswordChangeMessage.cs" />
+    <Compile Include="RunningModeChangeNotifyMessage.cs" />
+    <Compile Include="StatusResponse\CoinBoxQtyResponseMessage.cs" />
+    <Compile Include="AffairData\DeviceCashBoxChangeMessage.cs" />
+    <Compile Include="Command\DeviceModuleStatusRequestMessage.cs" />
+    <Compile Include="AuditData\DeviceRegisterDataMessage.cs" />
+    <Compile Include="DeviceStatusMessage.cs" />
+    <Compile Include="Command\DeviceStatusRequestMessage.cs" />
+    <Compile Include="Command\FileUploadRequestMessage.cs" />
+    <Compile Include="AffairData\NoteBoxAddMessage.cs" />
+    <Compile Include="StatusResponse\NoteBoxQtyQueryResponseMessage.cs" />
+    <Compile Include="Command\NoteBoxQtyRequestMessage.cs" />
+    <Compile Include="AffairData\OperateLogMessage.cs" />
+    <Compile Include="Command\PrmVersionQueryRequsetMessage.cs" />
+    <Compile Include="StatusResponse\PrmVersionQueryResponseMessage.cs" />
+    <Compile Include="AffairData\PrmVersionReportMessage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AuditData\ReplenishmentNotifyMessage.cs" />
+    <Compile Include="Command\RunningEndMessage.cs" />
+    <Compile Include="Command\RunningStartMessage.cs" />
+    <Compile Include="AffairData\SamCardInfoReportMessage.cs" />
+    <Compile Include="Command\SoftVersionQueryRequestMessage.cs" />
+    <Compile Include="StatusResponse\SoftVersionQueryResponseMessage.cs" />
+    <Compile Include="AffairData\SoftVersionReportMessage.cs" />
+    <Compile Include="AffairData\SpecialTicketTraceReportMessage.cs" />
+    <Compile Include="Command\SystemDegradeModeMessage.cs" />
+    <Compile Include="Command\SystemOperateModeMessage.cs" />
+    <Compile Include="Command\SystemServiceModeMessage.cs" />
+    <Compile Include="Command\TicketBoxAddMessage.cs" />
+    <Compile Include="Command\TicketBoxChangeMessage.cs" />
+    <Compile Include="Command\TicketBoxQtyRequestMessage.cs" />
+    <Compile Include="StatusResponse\TicketBoxQtyResponseMessage.cs" />
+    <Compile Include="Ticketing\CashBoxOperateMessage.cs" />
+    <Compile Include="Ticketing\CashStoreChangeMesssage.cs" />
+    <Compile Include="Ticketing\TicketBoxOperateMessage.cs" />
+    <Compile Include="Ticketing\TicketStockReportMessage.cs" />
+    <Compile Include="Ticketing\TicketStoreChangeMessage.cs" />
+    <Compile Include="TransactionFile.cs" />
+    <Compile Include="TransactionSummaryMessage.cs" />
+    <Compile Include="Transaction\TXBOMAdmin.cs" />
+    <Compile Include="Transaction\TXBOMExitTicketSale.cs" />
+    <Compile Include="Transaction\TXBOMInstantRefund.cs" />
+    <Compile Include="Transaction\TXBOMIntegration.cs" />
+    <Compile Include="Transaction\TXBOMNonInstantRefund.cs" />
+    <Compile Include="Transaction\TXBOMOuterSvtBuyTicket.cs" />
+    <Compile Include="Transaction\TXBOMOuterSvtCharge.cs" />
+    <Compile Include="Transaction\TXBOMOuterSvtSale.cs" />
+    <Compile Include="Transaction\TXBOMPreferentialUse.cs" />
+    <Compile Include="Transaction\TXBOMSjtSale.cs" />
+    <Compile Include="Transaction\TXBOMSpecialTicketRequest.cs" />
+    <Compile Include="Transaction\TXBOMOuterSvtUpdate.cs" />
+    <Compile Include="Transaction\TXBOMSvtWithhold.cs" />
+    <Compile Include="Transaction\TXBOMTicketUnlock.cs" />
+    <Compile Include="Transaction\TXBOMTicketUpdate.cs" />
+    <Compile Include="Transaction\TXBOMTicketCharge.cs" />
+    <Compile Include="Transaction\TXBOMGroupTicketSale.cs" />
+    <Compile Include="Transaction\TXInternalBlackListCapture.cs" />
+    <Compile Include="Transaction\TXBOMNameCardLoss.cs" />
+    <Compile Include="Transaction\TXOuterBlackListCapture.cs" />
+    <Compile Include="Transaction\TXTVMOuterSvtCharge.cs" />
+    <Compile Include="Transaction\TXTVMOuterSvtBuyTicket.cs" />
+    <Compile Include="Transaction\TXTVMSjtSale.cs" />
+    <Compile Include="Transaction\TXTVMSvtCharge.cs" />
+    <Compile Include="Transaction\TXTVMSvtBuyTicket.cs" />
+    <Compile Include="Transaction\TXYKTEntry.cs" />
+    <Compile Include="Transaction\TXYKTExit.cs" />
+    <Compile Include="Transaction\TXYPTEntry.cs" />
+    <Compile Include="Transaction\TXYPTExit.cs" />
+    <Compile Include="AuditData\TvmAuditDataMesssage.cs" />
+    <Compile Include="Command\TvmServiceModeControlMessage.cs" />
+    <Compile Include="AffairData\TvmTicketAddMessage.cs" />
+    <Compile Include="AffairData\TvmTicketBoxChangeMessage.cs" />
+    <Compile Include="TxnFileReTransferMessage.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

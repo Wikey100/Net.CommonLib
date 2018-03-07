@@ -1,0 +1,5 @@
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UI\bin\Debug\Net.CommonLib.UI.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UI\bin\Debug\Net.CommonLib.UI.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UI\obj\Debug\Net.CommonLib.UI.csprojResolveAssemblyReference.cache
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UI\obj\Debug\Net.CommonLib.UI.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UI\obj\Debug\Net.CommonLib.UI.pdb

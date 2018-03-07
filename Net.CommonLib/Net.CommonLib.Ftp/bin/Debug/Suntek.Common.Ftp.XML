@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Suntek.Common.Ftp</name>
+    </assembly>
+    <members>
+        <member name="T:Net.CommonLib.Ftp.DownLoadProgressEventHandler">
+            <summary>
+            下载进程处理
+            </summary>
+        </member>
+        <member name="T:Net.CommonLib.Ftp.FtpClient">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Net.CommonLib.Ftp.FtpClient.userName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Net.CommonLib.Ftp.FtpClient.HostUrl">
+            <summary>
+            Gets or sets the host URL.
+            </summary>
+            <value>The host URL.</value>
+        </member>
+        <member name="P:Net.CommonLib.Ftp.FtpClient.UserName">
+            <summary>
+            用户名
+            </summary>
+            <value>The name of the user.</value>
+        </member>
+        <member name="P:Net.CommonLib.Ftp.FtpClient.Pwd">
+            <summary>
+            密码
+            </summary>
+            <value>The PWD.</value>
+        </member>
+        <member name="M:Net.CommonLib.Ftp.FtpClient.#ctor(System.String)">
+            <summary>
+            初始化 <see cref="T:Net.CommonLib.Ftp.FtpClient"/> class的实例.
+            </summary>
+            <param name="hostName">ftp主机名.</param>
+        </member>
+        <member name="M:Net.CommonLib.Ftp.FtpClient.#ctor(System.String,System.String,System.String)">
+            <summary>
+            初始化 <see cref="T:Net.CommonLib.Ftp.FtpClient"/> class的实例.
+            </summary>
+            <param name="hostName">主机名</param>
+            <param name="userName">用户名</param>
+            <param name="pwd">密码</param>
+        </member>
+        <member name="M:Net.CommonLib.Ftp.FtpClient.Download(System.String,System.String)">
+            <summary>
+            下载文件
+            </summary>
+            <param name="ftpfileName">远程文件</param>
+            <param name="localFileName">本地文件</param>
+        </member>
+        <member name="M:Net.CommonLib.Ftp.FtpClient.DeleteFile(System.String)">
+            <summary>
+            删除FTP文件
+            </summary>
+            <param name="ftpFileName">Name of the FTP file.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net.CommonLib.Ftp.FtpClient.Upload(System.String,System.String)">
+            <summary>
+            上传文件
+            </summary>
+            <param name="localFile">本地文件.</param>
+            <param name="ftpFile">Ftp文件名.</param>
+        </member>
+        <member name="M:Net.CommonLib.Ftp.FtpClient.GetFileList(System.String)">
+            <summary>
+            获取文件列表
+            </summary>
+            <param name="dir">The dir.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net.CommonLib.Ftp.FtpClient.GetDirList(System.String)">
+            <summary>
+            获取文件列表
+            </summary>
+            <param name="dir">The dir.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net.CommonLib.Ftp.FtpClient.IsExists(System.String)">
+            <summary>
+            Determines whether the specified file name is exisit.
+            </summary>
+            <param name="fileName">Name of the file.</param>
+            <returns>
+            	<c>true</c> if the specified file name is exisit; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Net.CommonLib.Ftp.FtpClient.IsDirExists(System.String)">
+            <summary>
+            目录是否存在
+            </summary>
+            <param name="dir">目录名</param>
+            <returns>
+            	<c>true</c> if [is dir exists] [the specified dir]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Net.CommonLib.Ftp.FtpClient.DeleteDir(System.String)">
+            <summary>
+            删除目录
+            </summary>
+            <param name="ftpDir">目录名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net.CommonLib.Ftp.FtpClient.CreateDir(System.String)">
+            <summary>
+            创建目录
+            </summary>
+            <param name="ftpDir">目录名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net.CommonLib.Ftp.FtpClient.GetFileSize(System.String)">
+            <summary>
+            获取文件长度
+            </summary>
+            <param name="filaName">文件名</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

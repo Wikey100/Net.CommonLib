@@ -1,0 +1,5 @@
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Suntek.Common.DBAccess.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Suntek.Common.DBAccess.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.DBAccess\obj\Debug\Net.CommonLib.DBAccess.csprojResolveAssemblyReference.cache
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.DBAccess\obj\Debug\Suntek.Common.DBAccess.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.DBAccess\obj\Debug\Suntek.Common.DBAccess.pdb

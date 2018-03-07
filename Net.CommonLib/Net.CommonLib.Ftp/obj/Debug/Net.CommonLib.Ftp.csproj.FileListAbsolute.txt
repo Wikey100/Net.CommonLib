@@ -1,0 +1,5 @@
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Ftp\bin\Debug\Suntek.Common.Ftp.XML
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Ftp\bin\Debug\Suntek.Common.Ftp.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Ftp\bin\Debug\Suntek.Common.Ftp.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Ftp\obj\Debug\Suntek.Common.Ftp.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Ftp\obj\Debug\Suntek.Common.Ftp.pdb

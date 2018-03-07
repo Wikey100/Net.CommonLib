@@ -1,0 +1,14 @@
+E:\CCView\wzl_view\PXTK1007AFC\基线\源代码\BOM\AFC.Common\AFC.Common.Print\bin\Debug\AFC.Common.Print.dll
+E:\CCView\wzl_view\PXTK1007AFC\基线\源代码\BOM\AFC.Common\AFC.Common.Print\bin\Debug\AFC.Common.Print.pdb
+E:\CCView\wzl_view\PXTK1007AFC\基线\源代码\BOM\AFC.Common\AFC.Common.Print\obj\Debug\ResolveAssemblyReference.cache
+E:\CCView\wzl_view\PXTK1007AFC\基线\源代码\BOM\AFC.Common\AFC.Common.Print\obj\Debug\AFC.Common.Print.dll
+E:\CCView\wzl_view\PXTK1007AFC\基线\源代码\BOM\AFC.Common\AFC.Common.Print\obj\Debug\AFC.Common.Print.pdb
+E:\AFF基础类库\AFC.Common.Print\bin\Debug\AFC.Common.Print.dll
+E:\AFF基础类库\AFC.Common.Print\bin\Debug\AFC.Common.Print.pdb
+E:\AFF基础类库\AFC.Common.Print\obj\Debug\ResolveAssemblyReference.cache
+E:\AFF基础类库\AFC.Common.Print\obj\Debug\AFC.Common.Print.dll
+E:\AFF基础类库\AFC.Common.Print\obj\Debug\AFC.Common.Print.pdb
+F:\NET公共类库汇集\Suntek.CommonLib\AFC.Common.Print\bin\Debug\AFC.Common.Print.dll
+F:\NET公共类库汇集\Suntek.CommonLib\AFC.Common.Print\bin\Debug\AFC.Common.Print.pdb
+F:\NET公共类库汇集\Suntek.CommonLib\AFC.Common.Print\obj\Debug\AFC.Common.Print.dll
+F:\NET公共类库汇集\Suntek.CommonLib\AFC.Common.Print\obj\Debug\AFC.Common.Print.pdb

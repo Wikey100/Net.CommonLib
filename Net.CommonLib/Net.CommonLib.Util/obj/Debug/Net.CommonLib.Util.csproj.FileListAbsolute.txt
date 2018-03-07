@@ -1,0 +1,4 @@
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\bin\Debug\AFC.Common.Util.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\bin\Debug\AFC.Common.Util.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\obj\Debug\AFC.Common.Util.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\obj\Debug\AFC.Common.Util.pdb

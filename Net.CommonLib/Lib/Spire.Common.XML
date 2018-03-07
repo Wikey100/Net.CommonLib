@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Spire.Common</name>
+    </assembly>
+    <members>
+        <member name="T:Spire.Xls.Conversion.Element.HeaderFooter.HFField">
+            <summary>
+            Class of field in header/footer
+            </summary>
+        </member>
+        <member name="T:Spire.Xls.Conversion.Element.HeaderFooter.HFItem">
+            <summary>
+            Base class of header/footer element
+            </summary>
+        </member>
+        <member name="T:Spire.Xls.Conversion.Element.ElementFont">
+            <summary>
+            Map to Spire.Xls.ExcelFont
+            </summary>
+        </member>
+        <member name="M:Spire.Xls.Conversion.PropertyMap.CopyFrom``2(``0,``1)">
+            <summary>
+            Reset all properties indicated by PropertyMapAttribute of object dest,
+            using the value of the corresponding property in src
+            </summary>
+            <param name="dest"></param>
+            <param name="src"></param>
+        </member>
+        <member name="M:Spire.Xls.Conversion.PropertyMap.InheritFrom``2(``0,``1)">
+            <summary>
+            Init all properties indicated by PropertyMapAttribute of object dest,
+            using the value of the corresponding property in src.
+            If the property has already value, doesn't reset it.
+            </summary>
+            <param name="dest"></param>
+            <param name="src"></param>
+        </member>
+        <member name="M:Spire.Xls.Conversion.PropertyMap.CopyFrom``2(``0,``1,System.Boolean)">
+            <summary>
+            Copy all properties indicated by PropertyMapAttribute of object dest,
+            using the value of the corresponding property in src
+            </summary>
+            <param name="dest"></param>
+            <param name="src"></param>
+            <param name="overwrite">Indicates whether overwirtes the property which has value.</param>
+        </member>
+        <member name="T:Spire.Xls.Conversion.Element.HeaderFooter.HFSection">
+            <summary>
+            Represents one section of header/footer
+            </summary>
+        </member>
+        <member name="T:Spire.Xls.Conversion.Element.HeaderFooter.HFPicture">
+            <summary>
+            Picture placeholder in header/footer
+            </summary>
+        </member>
+        <member name="P:Spire.Xls.Converter.PdfConverterSettings.FitSheetToOnePage">
+            <summary>
+            Indicate whether fit the entire sheet to one page
+            </summary>
+        </member>
+        <member name="P:Spire.Xls.Converter.PdfConverterSettings.EnableExcelPageBreak">
+            <summary>
+            Indicate whether use excel page setup.
+            If true, split worksheet by the page breaks in the sheet.
+            If false, split worksheet by the PDF page size.
+            </summary>
+        </member>
+        <member name="P:Spire.Xls.Converter.PdfConverterSettings.IsUsingExcelPageSetup">
+            <summary>
+            Indicate whether use excel page setup
+            </summary>
+        </member>
+        <member name="P:Spire.Xls.Converter.PdfConverterSettings.ScalePage">
+            <summary>
+            Scale page during converting
+            </summary>
+        </member>
+        <member name="T:Spire.Xls.Converter.FitToPageType">
+            <summary>
+            Options of resize worksheet to fit PDF page.
+            </summary>
+        </member>
+        <member name="F:Spire.Xls.Converter.FitToPageType.None">
+            <summary>
+            Does not resize the worksheet, split it by the PDF page size.
+            </summary>
+        </member>
+        <member name="F:Spire.Xls.Converter.FitToPageType.NoScale">
+            <summary>
+            Keeps the original size of the worksheet,
+            even if it is large than the PDF page size.
+            </summary>
+        </member>
+        <member name="F:Spire.Xls.Converter.FitToPageType.ScaleWithSameFactor">
+            <summary>
+            If there is one or more worksheets large than the PDF page,
+            resize all worksheet with the same factor to fit PDF page.
+            </summary>
+        </member>
+        <member name="F:Spire.Xls.Converter.FitToPageType.ScaleWidthDifferentFactor">
+            <summary>
+            If there is one worksheet large than the PDF page,
+            resize it to fit PDF page.
+            </summary>
+        </member>
+        <member name="T:Spire.Xls.Conversion.Element.HeaderFooter.HFFieldFormat">
+            <summary>
+            Format of header/footer field
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,4 @@
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Print\bin\Debug\AFC.Common.Print.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Print\bin\Debug\AFC.Common.Print.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Print\obj\Debug\AFC.Common.Print.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Print\obj\Debug\AFC.Common.Print.pdb

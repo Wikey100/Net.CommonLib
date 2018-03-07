@@ -1,0 +1,6 @@
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Suntek.Common.Log.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Suntek.Common.Log.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Suntek.Common.Log.XML
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Log\obj\Debug\Net.CommonLib.Log.csprojResolveAssemblyReference.cache
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Log\obj\Debug\Suntek.Common.Log.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Log\obj\Debug\Suntek.Common.Log.pdb

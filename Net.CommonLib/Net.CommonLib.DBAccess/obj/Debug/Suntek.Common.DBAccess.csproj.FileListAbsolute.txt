@@ -1,0 +1,5 @@
+E:\01suntek\23武汉21号线AFC\04源代码\LCC_Code\LCCSERVER\Debug\bin\Suntek.Common.DBAccess.dll
+E:\01suntek\23武汉21号线AFC\04源代码\LCC_Code\LCCSERVER\Debug\bin\Suntek.Common.DBAccess.pdb
+E:\01suntek\23武汉21号线AFC\04源代码\LCC_Code\LCCSERVER\Suntek.Common.DBAccess\obj\Debug\Suntek.Common.DBAccess.csprojResolveAssemblyReference.cache
+E:\01suntek\23武汉21号线AFC\04源代码\LCC_Code\LCCSERVER\Suntek.Common.DBAccess\obj\Debug\Suntek.Common.DBAccess.dll
+E:\01suntek\23武汉21号线AFC\04源代码\LCC_Code\LCCSERVER\Suntek.Common.DBAccess\obj\Debug\Suntek.Common.DBAccess.pdb

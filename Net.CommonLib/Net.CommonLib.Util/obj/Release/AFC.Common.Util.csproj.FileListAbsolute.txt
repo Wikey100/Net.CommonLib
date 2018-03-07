@@ -1,0 +1,5 @@
+E:\CCView\wzl_view\PXTK1007AFC\基线\源代码\BOM\AFC.Common\AFC.Common.Util\bin\Release\AFC.Common.Util.dll
+E:\CCView\wzl_view\PXTK1007AFC\基线\源代码\BOM\AFC.Common\AFC.Common.Util\bin\Release\AFC.Common.Util.pdb
+E:\CCView\wzl_view\PXTK1007AFC\基线\源代码\BOM\AFC.Common\AFC.Common.Util\obj\Release\ResolveAssemblyReference.cache
+E:\CCView\wzl_view\PXTK1007AFC\基线\源代码\BOM\AFC.Common\AFC.Common.Util\obj\Release\AFC.Common.Util.dll
+E:\CCView\wzl_view\PXTK1007AFC\基线\源代码\BOM\AFC.Common\AFC.Common.Util\obj\Release\AFC.Common.Util.pdb

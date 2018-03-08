@@ -7,7 +7,7 @@
     <ProjectGuid>{D27017FC-7918-4BAC-B97C-DFEDD2706A1F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Net.CommonLib.UI</RootNamespace>
+    <RootNamespace>Net.CommonLib.Controls</RootNamespace>
     <AssemblyName>Net.CommonLib.UI</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -48,6 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoSizeControl.cs" />
+    <Compile Include="ExpanderGridSplitterControl.cs" />
+    <Compile Include="ImageButtonChrome.cs" />
+    <Compile Include="ImagePageButton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

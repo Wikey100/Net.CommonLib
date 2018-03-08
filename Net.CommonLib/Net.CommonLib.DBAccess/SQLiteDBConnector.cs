@@ -28,9 +28,9 @@ namespace Net.CommonLib.DBAccess
         }
 
         /// <summary>
-        /// Gets the connection.
+        /// 建立数据库存连接
         /// </summary>
-        /// <param name="connStr">The conn STR.格式Data Source=a.s3db;Pooling=true;</param>
+        /// <param name="connStr">连接字符串.格式Data Source=a.s3db;Pooling=true;</param>
         /// <returns></returns>
         public override IDbConnection GetConnection(string connStr)
         {

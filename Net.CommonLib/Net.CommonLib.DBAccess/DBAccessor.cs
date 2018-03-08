@@ -909,6 +909,15 @@ namespace Net.CommonLib.DBAccess
             return DBConnector.GetParameter(name, value, type, size, direction);
         }
 
+        /// <summary>
+        /// 获取参数
+        /// </summary>
+        /// <param name="name">参数名</param>
+        /// <param name="value">参数值</param>
+        /// <param name="type">参数类型</param>
+        /// <param name="size">参数大小</param>
+        /// <param name="direction"></param>
+        /// <returns></returns>
         public IDbDataParameter GetParameter(string name, object value, Int32 type, int size, ParameterDirection direction)
         {
             return DBConnector.GetParameter(name, value, type, size, direction);
@@ -953,6 +962,10 @@ namespace Net.CommonLib.DBAccess
             return DBConnector.Connection;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="p"></param>
         private void LogD(string p)
         {
             try

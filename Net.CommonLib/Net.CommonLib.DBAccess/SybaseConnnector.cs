@@ -28,9 +28,9 @@ namespace Net.CommonLib.DBAccess
         }
 
         /// <summary>
-        /// Gets the connection.
+        /// 建立数据库连接
         /// </summary>
-        /// <param name="connStr">The conn STR.</param>
+        /// <param name="connStr">连接字符串</param>
         /// <returns></returns>
         public override IDbConnection GetConnection(string connStr)
         {
@@ -60,7 +60,6 @@ namespace Net.CommonLib.DBAccess
         public override IDbDataAdapter GetAdapter(IDbCommand cmd)
         {
             AseDataAdapter adapter = new AseDataAdapter((AseCommand)cmd);
-            // lrh   2010-01-21
             AseCommandBuilder cb = new AseCommandBuilder(adapter);
             adapter.CommandBuilder = cb;
             return adapter;

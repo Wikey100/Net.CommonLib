@@ -11,6 +11,7 @@
 using System;
 using System.Data;
 using System.Data.OracleClient;
+using System.Text;
 
 namespace Net.CommonLib.DBAccess
 {
@@ -47,10 +48,6 @@ namespace Net.CommonLib.DBAccess
             if (command == null)
             {
                 command = new OracleCommand(sql, (OracleConnection)Connection);
-                //if (ArrayCount != 1)
-                //{
-                //    (command as OracleCommand).ArrayBindCount = ArrayCount;
-                //}
             }
             //更新命令
             else
@@ -80,7 +77,6 @@ namespace Net.CommonLib.DBAccess
             if (value is Array)
             {
                 OracleParameter param = new OracleParameter();
-                //param.OracleDbType = OracleDbType.Int32;
                 param.DbType = DbType.Int32;
                 param.ParameterName = name;
                 param.Value = value;
@@ -111,10 +107,6 @@ namespace Net.CommonLib.DBAccess
             name = name.Replace("@", "");
             OracleParameter param = new OracleParameter();
             param.DbType = dataType;
-            //if (param.DbType == DbType.DateTime)
-            //{
-            //    param.OracleDbType = OracleDbType.Date;
-            //}
             param.ParameterName = name;
             param.Value = value;
             param.Direction = ParameterDirection.Input;
@@ -149,7 +141,16 @@ namespace Net.CommonLib.DBAccess
 
         public override string GetPagedQuerySql(string sql, int startIndex, int pageLen)
         {
-            throw new NotImplementedException();
+            StringBuilder pageSql = new StringBuilder();
+            pageSql.Append("select * from (")
+                .Append(sql)
+                .Append(") _temp limit ")
+                .Append(startIndex)
+                .Append(",")
+                .Append(pageLen)
+                .Append(";")
+                .Append("select count(*) from (").Append(sql).Append(") _tempCount");
+            return pageSql.ToString();
         }
     }
 }

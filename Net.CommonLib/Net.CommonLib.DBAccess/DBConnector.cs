@@ -30,11 +30,11 @@ namespace Net.CommonLib.DBAccess
             set { connection = value; }
         }
 
-        /// <summary>
-        ///
-        /// </summary>
+       
         protected bool supportSqlPaged;
-
+        /// <summary>
+        /// 支持SQL分页
+        /// </summary>
         public bool SupportSqlPaged
         {
             get { return supportSqlPaged; }

@@ -10,6 +10,7 @@
 
 using System;
 using System.Data.SqlClient;
+using System.Text;
 
 namespace Net.CommonLib.DBAccess
 {
@@ -82,7 +83,6 @@ namespace Net.CommonLib.DBAccess
         public override System.Data.IDbDataAdapter GetAdapter(System.Data.IDbCommand cmd)
         {
             SqlDataAdapter adapter = new SqlDataAdapter((SqlCommand)cmd);
-            // lrh   2010-01-21
             SqlCommandBuilder cb = new SqlCommandBuilder(adapter);
             return adapter;
         }
@@ -96,7 +96,14 @@ namespace Net.CommonLib.DBAccess
         /// <returns></returns>
         public override string GetPagedQuerySql(string sql, int startIndex, int pageLen)
         {
-            throw new NotImplementedException();
+            StringBuilder pageSql = new StringBuilder();
+            pageSql.Append("select * from (")
+                .Append(sql)
+                .Append(") limit ")
+                .Append(startIndex)
+                .Append(",")
+                .Append(pageLen).Append("; select count(*) from(").Append(sql).Append(")");
+            return pageSql.ToString();
         }
     }
 }

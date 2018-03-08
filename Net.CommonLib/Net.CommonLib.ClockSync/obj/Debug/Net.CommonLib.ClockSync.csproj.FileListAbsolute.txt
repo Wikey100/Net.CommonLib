@@ -3,6 +3,8 @@ G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ClockSync\bin\Debug
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ClockSync\bin\Debug\log4net.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ClockSync\bin\Debug\Suntek.Common.Log.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ClockSync\bin\Debug\Suntek.Common.Log.xml
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ClockSync\bin\Debug\Suntek.Common.Log.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.ClockSync.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.ClockSync.pdb
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ClockSync\obj\Debug\Net.CommonLib.ClockSync.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ClockSync\obj\Debug\Net.CommonLib.ClockSync.pdb
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ClockSync\bin\Debug\Suntek.Common.Log.pdb

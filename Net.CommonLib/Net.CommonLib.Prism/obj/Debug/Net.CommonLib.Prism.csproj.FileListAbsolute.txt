@@ -1,7 +1,9 @@
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Prism\bin\Debug\Net.CommonLib.Prism.exe.config
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Prism\bin\Debug\Net.CommonLib.Prism.exe
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Prism\bin\Debug\Net.CommonLib.Prism.pdb
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Prism\obj\Debug\Net.CommonLib.Prism.csprojResolveAssemblyReference.cache
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Prism\bin\Debug\System.Net.Http.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Prism\bin\Debug\System.Net.Http.xml
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Prism\bin\Debug\zh-Hans\System.Net.Http.resources.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Prism\obj\Debug\MainWindow.g.cs
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Prism\obj\Debug\App.g.cs
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Prism\obj\Debug\Net.CommonLib.Prism_MarkupCompile.cache

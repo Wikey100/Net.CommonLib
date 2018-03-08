@@ -8,7 +8,7 @@
  * *2013-02-23    xwj       新增
  * *******************************************************************/
 
-using Suntek.Common.Log;
+using Net.CommonLib.Log;
 using System;
 using System.Data;
 using System.Diagnostics;

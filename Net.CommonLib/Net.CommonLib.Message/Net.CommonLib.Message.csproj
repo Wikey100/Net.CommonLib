@@ -7,8 +7,8 @@
     <ProjectGuid>{308F0F55-87E7-4269-8281-EBFD2B36A366}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WH.AFC.Message</RootNamespace>
-    <AssemblyName>WH.AFC.Message</AssemblyName>
+    <RootNamespace>Net.CommonLib.Message</RootNamespace>
+    <AssemblyName>Net.CommonLib.Message</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

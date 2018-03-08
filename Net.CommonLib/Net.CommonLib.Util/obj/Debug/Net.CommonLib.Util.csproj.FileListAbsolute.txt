@@ -1,10 +1,12 @@
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\bin\Debug\AFC.Common.Util.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\bin\Debug\AFC.Common.Util.pdb
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\obj\Debug\AFC.Common.Util.dll
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\obj\Debug\AFC.Common.Util.pdb
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\bin\Debug\NPOI.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\bin\Debug\Suntek.Common.Log.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\bin\Debug\Suntek.Common.Log.xml
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\obj\Debug\Net.CommonLib.Util.csprojResolveAssemblyReference.cache
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\bin\Debug\log4net.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\bin\Debug\Suntek.Common.Log.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.Util.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.Util.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\obj\Debug\Net.CommonLib.Util.csprojResolveAssemblyReference.cache
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\obj\Debug\Net.CommonLib.Util.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Util\obj\Debug\Net.CommonLib.Util.pdb

@@ -8,8 +8,8 @@
     <ProjectGuid>{A44F3FE5-8C72-482D-9D7A-831A725B9AA4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Suntek.Common.Log</RootNamespace>
-    <AssemblyName>Suntek.Common.Log</AssemblyName>
+    <RootNamespace>Net.CommonLib.Log</RootNamespace>
+    <AssemblyName>Net.CommonLib.Log</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>
@@ -43,7 +43,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Suntek.Common.Log.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Net.CommonLib.Log.xml</DocumentationFile>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>

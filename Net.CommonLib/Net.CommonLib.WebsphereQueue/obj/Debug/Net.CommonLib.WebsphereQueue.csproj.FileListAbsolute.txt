@@ -1,1 +1,5 @@
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.WebsphereQueue.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.WebsphereQueue.pdb
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.WebsphereQueue\obj\Debug\Net.CommonLib.WebsphereQueue.csprojResolveAssemblyReference.cache
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.WebsphereQueue\obj\Debug\Net.CommonLib.WebsphereQueue.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.WebsphereQueue\obj\Debug\Net.CommonLib.WebsphereQueue.pdb

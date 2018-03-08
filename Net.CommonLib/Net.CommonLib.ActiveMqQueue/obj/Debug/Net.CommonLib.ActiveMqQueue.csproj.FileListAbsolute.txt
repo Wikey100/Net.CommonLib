@@ -1,0 +1,4 @@
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.ActiveMqQueue.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.ActiveMqQueue.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ActiveMqQueue\obj\Debug\Net.CommonLib.ActiveMqQueue.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ActiveMqQueue\obj\Debug\Net.CommonLib.ActiveMqQueue.pdb

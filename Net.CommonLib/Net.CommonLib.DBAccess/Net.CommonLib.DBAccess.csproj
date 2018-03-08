@@ -8,8 +8,8 @@
     <ProjectGuid>{85E32D4C-4E92-40ED-9341-6A535E1A4D89}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Suntek.Common.DBAccess</RootNamespace>
-    <AssemblyName>Suntek.Common.DBAccess</AssemblyName>
+    <RootNamespace>Net.CommonLib.ExcelReport</RootNamespace>
+    <AssemblyName>Net.CommonLib.ExcelReport</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>
@@ -45,16 +45,12 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Suntek.Common.DBAccess.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Net.CommonLib.ExcelReport.xml</DocumentationFile>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data">
       <HintPath>..\Lib\MySql.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Suntek.Common.Log, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Lib\Suntek.Common.Log.dll</HintPath>
     </Reference>
     <Reference Include="Sybase.Data.AseClient">
       <HintPath>..\Lib\Sybase.Data.AseClient.dll</HintPath>
@@ -86,6 +82,10 @@
     <Content Include="Readme\ReleaseNotes.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Net.CommonLib.Log\Net.CommonLib.Log.csproj">
+      <Project>{a44f3fe5-8c72-482d-9d7a-831a725b9aa4}</Project>
+      <Name>Net.CommonLib.Log</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

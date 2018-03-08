@@ -1,9 +1,11 @@
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Controls\bin\Debug\Net.CommonLib.UI.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Controls\bin\Debug\Net.CommonLib.UI.pdb
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Controls\obj\Debug\Net.CommonLib.Controls.csprojResolveAssemblyReference.cache
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Controls\obj\Debug\Net.CommonLib.UI.dll
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Controls\obj\Debug\Net.CommonLib.UI.pdb
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Controls\bin\Debug\System.Net.Http.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Controls\bin\Debug\Xceed.Wpf.Toolkit.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Controls\bin\Debug\System.Net.Http.xml
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Controls\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.Controls.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.Controls.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Controls\obj\Debug\Net.CommonLib.Controls.csprojResolveAssemblyReference.cache
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Controls\obj\Debug\Net.CommonLib.Controls.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Controls\obj\Debug\Net.CommonLib.Controls.pdb

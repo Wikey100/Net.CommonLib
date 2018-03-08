@@ -7,8 +7,8 @@
     <ProjectGuid>{059B04DA-CE45-4385-A844-AB2949F91060}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Pci.Afc.Comm.Queue.Websphere</RootNamespace>
-    <AssemblyName>Pci.Afc.Comm.Queue.Websphere</AssemblyName>
+    <RootNamespace>Net.CommonLib.WebsphereQueue</RootNamespace>
+    <AssemblyName>Net.CommonLib.WebsphereQueue</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -8,8 +8,8 @@
     <ProjectGuid>{E880F988-18B7-4113-AFD1-35A7F9ABD31C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Suntek.Common.Ftp</RootNamespace>
-    <AssemblyName>Suntek.Common.Ftp</AssemblyName>
+    <RootNamespace>Net.CommonLib.Ftp</RootNamespace>
+    <AssemblyName>Net.CommonLib.Ftp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>
@@ -30,7 +30,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\Debug\bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -43,7 +43,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Suntek.Common.Ftp.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Net.CommonLib.Ftp.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

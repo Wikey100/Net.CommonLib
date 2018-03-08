@@ -8,8 +8,8 @@
     <ProjectGuid>{700FF5E6-2F39-41FB-8ED5-A5315642A76E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AFC.Common.Print</RootNamespace>
-    <AssemblyName>AFC.Common.Print</AssemblyName>
+    <RootNamespace>Net.CommonLib.Print</RootNamespace>
+    <AssemblyName>Net.CommonLib.Print</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>
@@ -45,7 +45,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\Debug\bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>

@@ -7,8 +7,8 @@
     <ProjectGuid>{47A851C5-6A62-4F41-923B-3159D7F2A605}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Suntek.Common.ExcelReport</RootNamespace>
-    <AssemblyName>Suntek.Common.ExcelReport</AssemblyName>
+    <RootNamespace>Net.CommonLib.ExcelReport</RootNamespace>
+    <AssemblyName>Net.CommonLib.ExcelReport</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\Debug\bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>

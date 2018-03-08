@@ -1,20 +1,19 @@
 ﻿/*******************************************************************
  * * 文件名： Helper.cs
- * * 文件作用： 
+ * * 文件作用：
  * *
  * *-------------------------------------------------------------------
  * *修改历史记录：
  * *修改时间      修改人    修改内容概要
  * *2014-04-27    xwj       新增
  * *******************************************************************/
+
+using Net.CommonLib.Util.Extensions;
 using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
 using System.Configuration;
+using System.Data;
 using System.Net;
-using Net.CommonLib.Util.Extensions;
 
 namespace Net.CommonLib.Util
 {
@@ -36,6 +35,7 @@ namespace Net.CommonLib.Util
             }
             return list;
         }
+
         /// <summary>
         /// 设备代码->设备名称
         /// </summary>
@@ -47,10 +47,13 @@ namespace Net.CommonLib.Util
             {
                 case "02":
                     return "TVM";
+
                 case "03":
                     return "BOM";
+
                 case "04":
                     return "AGM";
+
                 case "05":
                     return "TCM";
             }
@@ -112,7 +115,6 @@ namespace Net.CommonLib.Util
 
         private static bool CheckAppSettings(string key)
         {
-
             if (ConfigurationManager.AppSettings[key] != null)
             {
                 return true;
@@ -193,6 +195,7 @@ namespace Net.CommonLib.Util
 
             return dt;
         }
+
         /// <summary>
         /// 检查子模块是否运行正常
         /// </summary>

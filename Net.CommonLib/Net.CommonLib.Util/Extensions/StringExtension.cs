@@ -1,6 +1,6 @@
 ﻿/*******************************************************************
  * * 文件名： StringExtension.cs
- * * 文件作用： 
+ * * 文件作用：
  * *
  * *-------------------------------------------------------------------
  * *修改历史记录：
@@ -9,35 +9,32 @@
  * *******************************************************************/
 
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Web;
 using System.Security.Cryptography;
+using System.Text;
 using System.Text.RegularExpressions;
-using Net.CommonLib.Util.Extensions;
 
 namespace Net.CommonLib.Util.Extensions
 {
     public static partial class StringExtension
     {
-        public static string NullSafe( this string target )
+        public static string NullSafe(this string target)
         {
             return (target ?? string.Empty).Trim();
         }
 
-        public static string FillEmptyNull( this string target )
+        public static string FillEmptyNull(this string target)
         {
-            if (string.IsNullOrEmpty( target ))
+            if (string.IsNullOrEmpty(target))
             {
                 return "";
             }
             return target;
         }
 
-        public static bool IsNullOrEmpty( this string target )
+        public static bool IsNullOrEmpty(this string target)
         {
-            if (string.IsNullOrEmpty( target ))
+            if (string.IsNullOrEmpty(target))
             {
                 return true;
             }
@@ -45,33 +42,33 @@ namespace Net.CommonLib.Util.Extensions
             return false;
         }
 
-        public static string FormatWith( this string target, params object[] args )
+        public static string FormatWith(this string target, params object[] args)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
-            return string.Format( target, args );
+            return string.Format(target, args);
         }
 
-        public static string Hash( this string target )
+        public static string Hash(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
             using (MD5 md5 = MD5.Create())
             {
-                byte[] data = Encoding.Unicode.GetBytes( target );
-                byte[] hash = md5.ComputeHash( data );
+                byte[] data = Encoding.Unicode.GetBytes(target);
+                byte[] hash = md5.ComputeHash(data);
 
-                return Convert.ToBase64String( hash );
+                return Convert.ToBase64String(hash);
             }
         }
 
-        public static bool IsValidDateTime( this string target )
+        public static bool IsValidDateTime(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
             DateTime dt;
 
-            if (DateTime.TryParse( target, out dt ))
+            if (DateTime.TryParse(target, out dt))
             {
                 return dt.IsValid();
             }
@@ -79,13 +76,13 @@ namespace Net.CommonLib.Util.Extensions
             return false;
         }
 
-        public static bool IsValidInt( this string target )
+        public static bool IsValidInt(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
             int value;
 
-            if (int.TryParse( target, out value ))
+            if (int.TryParse(target, out value))
             {
                 return true;
             }
@@ -93,13 +90,13 @@ namespace Net.CommonLib.Util.Extensions
             return false;
         }
 
-        public static bool IsValidDecimal( this string target )
+        public static bool IsValidDecimal(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
             decimal value;
 
-            if (decimal.TryParse( target, out value ))
+            if (decimal.TryParse(target, out value))
             {
                 return true;
             }
@@ -107,61 +104,61 @@ namespace Net.CommonLib.Util.Extensions
             return false;
         }
 
-        public static DateTime ParseDateTime( this string target )
+        public static DateTime ParseDateTime(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
-            return DateTime.Parse( target );
+            return DateTime.Parse(target);
         }
 
-        public static int ParseInt( this string target )
+        public static int ParseInt(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
-            return int.Parse( target );
+            return int.Parse(target);
         }
 
-        public static int TryParseInt( this string target )
+        public static int TryParseInt(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
             int value;
 
-            int.TryParse( target, out value );
+            int.TryParse(target, out value);
 
             return value;
         }
 
-        public static long ParseLong( this string target )
+        public static long ParseLong(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
-            return long.Parse( target );
+            return long.Parse(target);
         }
 
-        public static decimal ParseDecimal( this string target )
+        public static decimal ParseDecimal(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
-            return decimal.Parse( target );
+            return decimal.Parse(target);
         }
 
-        public static bool ParseBool( this string target )
+        public static bool ParseBool(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
-            return bool.Parse( target );
+            return bool.Parse(target);
         }
 
-        public static T ToEnum<T>( this string target, T defaultValue ) where T : IComparable, IFormattable
+        public static T ToEnum<T>(this string target, T defaultValue) where T : IComparable, IFormattable
         {
             T convertedValue = defaultValue;
 
-            if (!string.IsNullOrEmpty( target ))
+            if (!string.IsNullOrEmpty(target))
             {
                 try
                 {
-                    convertedValue = (T)Enum.Parse( typeof( T ), target.Trim(), true );
+                    convertedValue = (T)Enum.Parse(typeof(T), target.Trim(), true);
                 }
                 catch (ArgumentException)
                 {
@@ -171,16 +168,16 @@ namespace Net.CommonLib.Util.Extensions
             return convertedValue;
         }
 
-        public static string[] SplitString( this string target, char delimiter )
+        public static string[] SplitString(this string target, char delimiter)
         {
-            if (String.IsNullOrEmpty( target ))
+            if (String.IsNullOrEmpty(target))
             {
                 return new string[0];
             }
 
-            var split = from piece in target.Split( delimiter )
+            var split = from piece in target.Split(delimiter)
                         let trimmed = piece.Trim()
-                        where !String.IsNullOrEmpty( trimmed )
+                        where !String.IsNullOrEmpty(trimmed)
                         select trimmed;
 
             return split.ToArray();
@@ -192,11 +189,11 @@ namespace Net.CommonLib.Util.Extensions
         /// <param name="target"></param>
         /// <param name="totalLength"></param>
         /// <returns></returns>
-        public static string FillSpace( this string target, int totalLength )
+        public static string FillSpace(this string target, int totalLength)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
-            StringBuilder builder = new StringBuilder( target );
+            StringBuilder builder = new StringBuilder(target);
 
             int count = totalLength - target.Length;
 
@@ -204,7 +201,7 @@ namespace Net.CommonLib.Util.Extensions
             {
                 for (int i = 1; i <= count; i++)
                 {
-                    builder.Append( "\0" );
+                    builder.Append("\0");
                 }
             }
 
@@ -216,44 +213,44 @@ namespace Net.CommonLib.Util.Extensions
         /// </summary>
         /// <param name="target"></param>
         /// <returns></returns>
-        public static string GetFileName( this string target )
+        public static string GetFileName(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
-            string[] s = target.Split( '\\' );
+            string[] s = target.Split('\\');
 
             return s[s.Length - 1];
         }
 
-        public static string GetStationIDByFullDeviceID( this string target )
+        public static string GetStationIDByFullDeviceID(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
             if (target.Length == 10)
             {
-                return target.Substring( 0, 4 );
+                return target.Substring(0, 4);
             }
             return string.Empty;
         }
 
-        public static string GetDeviceTypeByFullDeviceID( this string target )
+        public static string GetDeviceTypeByFullDeviceID(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
             if (target.Length == 10)
             {
-                return target.Substring( 4, 2 );
+                return target.Substring(4, 2);
             }
             return string.Empty;
         }
 
-        public static string GetDeviceIDByFullDeviceID( this string target )
+        public static string GetDeviceIDByFullDeviceID(this string target)
         {
-            Check.Argument.IsNotEmpty( target, "target" );
+            Check.Argument.IsNotEmpty(target, "target");
 
             if (target.Length == 10)
             {
-                return target.Substring( 6, 4 );
+                return target.Substring(6, 4);
             }
             return string.Empty;
         }
@@ -263,14 +260,14 @@ namespace Net.CommonLib.Util.Extensions
         /// </summary>
         /// <param name="str"></param>
         /// <returns></returns>
-        public static bool TryGetDateTime( this string str, out DateTime result )
+        public static bool TryGetDateTime(this string str, out DateTime result)
         {
-            Check.Argument.IsNotEmpty( str, "str" );
+            Check.Argument.IsNotEmpty(str, "str");
             result = DateTime.Now;
             //日期时间正则表达式
             string parttern = @"(?<year>\d{4})[\s|-]?(?<month>\d{1,2})[\s|-]?(?<day>\d{1,2})[\s|-]?((?<hour>\d{1,2})[\s|:]?(?<min>\d{1,2})[\s|:]?(?<sec>\d{1,2}))?";
 
-            Match match = Regex.Match( str, parttern );
+            Match match = Regex.Match(str, parttern);
 
             if (!match.Success)
             {
@@ -286,21 +283,21 @@ namespace Net.CommonLib.Util.Extensions
             string sec = match.Groups["sec"].Value;
 
             //过滤
-            year = string.IsNullOrWhiteSpace( year ) ? DateTime.MinValue.Year.ToString() : year;
-            month = string.IsNullOrWhiteSpace( month ) ? "01" : month;
-            day = string.IsNullOrWhiteSpace( day ) ? "01" : day;
+            year = string.IsNullOrWhiteSpace(year) ? DateTime.MinValue.Year.ToString() : year;
+            month = string.IsNullOrWhiteSpace(month) ? "01" : month;
+            day = string.IsNullOrWhiteSpace(day) ? "01" : day;
 
-            hour = string.IsNullOrWhiteSpace( hour ) ? "00" : hour;
-            min = string.IsNullOrWhiteSpace( min ) ? "00" : min;
-            sec = string.IsNullOrWhiteSpace( sec ) ? "00" : sec;
+            hour = string.IsNullOrWhiteSpace(hour) ? "00" : hour;
+            min = string.IsNullOrWhiteSpace(min) ? "00" : min;
+            sec = string.IsNullOrWhiteSpace(sec) ? "00" : sec;
 
-            string dtStr = string.Format( "{0}-{1}-{2} {3}:{4}:{5}", year, month, day, hour, min, sec );
+            string dtStr = string.Format("{0}-{1}-{2} {3}:{4}:{5}", year, month, day, hour, min, sec);
 
             //释放
             match = null;
 
             //转换格式并返回
-            if (DateTime.TryParse( dtStr, out result ))
+            if (DateTime.TryParse(dtStr, out result))
             {
                 return true;
             }

@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.ClockSync", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.ActiveMqQueue", "Net.CommonLib.ActiveMqQueue\Net.CommonLib.ActiveMqQueue.csproj", "{7E56F6B4-2382-4019-A845-29EA35457BBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.DrawTools", "Net.CommonLib.DrawTools\Net.CommonLib.DrawTools.csproj", "{4E15BE7E-B323-4C76-9140-B7254B58B54E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{7E56F6B4-2382-4019-A845-29EA35457BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E56F6B4-2382-4019-A845-29EA35457BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E56F6B4-2382-4019-A845-29EA35457BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E15BE7E-B323-4C76-9140-B7254B58B54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E15BE7E-B323-4C76-9140-B7254B58B54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E15BE7E-B323-4C76-9140-B7254B58B54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E15BE7E-B323-4C76-9140-B7254B58B54E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

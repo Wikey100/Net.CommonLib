@@ -1,5 +1,5 @@
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.DBAccess\obj\Debug\Net.CommonLib.DBAccess.csprojResolveAssemblyReference.cache
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.ExcelReport.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.ExcelReport.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.DBAccess\obj\Debug\Net.CommonLib.DBAccess.csprojResolveAssemblyReference.cache
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.DBAccess\obj\Debug\Net.CommonLib.ExcelReport.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.DBAccess\obj\Debug\Net.CommonLib.ExcelReport.pdb

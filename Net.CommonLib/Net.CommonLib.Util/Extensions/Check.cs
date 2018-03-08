@@ -1,16 +1,15 @@
 ﻿/*******************************************************************
  * * 文件名： Check.cs
- * * 文件作用： 
+ * * 文件作用：
  * *
  * *-------------------------------------------------------------------
  * *修改历史记录：
  * *修改时间      修改人    修改内容概要
  * *2014-04-27    xwj       新增
  * *******************************************************************/
+
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Net.CommonLib.Util.Extensions
 {
@@ -107,7 +106,6 @@ namespace Net.CommonLib.Util.Extensions
                     throw new ArgumentOutOfRangeException(argumentName, "{0}必需在\"{1}\"-\"{2}\"之间。".FormatWith(argumentName, min, max));
                 }
             }
-
         }
     }
 }

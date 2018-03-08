@@ -1,6 +1,6 @@
 ﻿/*******************************************************************
  * * 文件名： EnumerableExtension.cs
- * * 文件作用： 
+ * * 文件作用：
  * *
  * *-------------------------------------------------------------------
  * *修改历史记录：
@@ -14,16 +14,16 @@ using System.Collections.Generic;
 namespace Net.CommonLib.Util.Extensions
 {
     public static class EnumerableExtension
-    {       
-        public static void ForEach<T>( this IEnumerable<T> enumerable, Action<T> action )
+    {
+        public static void ForEach<T>(this IEnumerable<T> enumerable, Action<T> action)
         {
             foreach (T item in enumerable)
             {
-                action( item );
+                action(item);
             }
         }
 
-        //public static bool IsNullOrEmpty<T>( this IEnumerable<T> items, out IEnumerable<T> newItems ) 
+        //public static bool IsNullOrEmpty<T>( this IEnumerable<T> items, out IEnumerable<T> newItems )
         //{
         //    newItems = items;
 
@@ -34,7 +34,7 @@ namespace Net.CommonLib.Util.Extensions
 
         //    var enumerator = items.GetEnumerator();
 
-        //    if (enumerator.MoveNext() == false) 
+        //    if (enumerator.MoveNext() == false)
         //    {
         //        return false;
         //    }
@@ -43,6 +43,5 @@ namespace Net.CommonLib.Util.Extensions
 
         //        return true;
         //}
-
     }
 }

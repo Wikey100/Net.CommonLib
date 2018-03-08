@@ -1,6 +1,6 @@
 ﻿/*******************************************************************
  * * 文件名： ListExtension.cs
- * * 文件作用： 
+ * * 文件作用：
  * *
  * *-------------------------------------------------------------------
  * *修改历史记录：
@@ -16,15 +16,15 @@ namespace Net.CommonLib.Util.Extensions
 {
     public static class ListExtension
     {
-        public static IList<TDest> Convert<TSource, TDest>( this IList<TSource> target, Func<TSource, TDest> convert )
+        public static IList<TDest> Convert<TSource, TDest>(this IList<TSource> target, Func<TSource, TDest> convert)
         {
             var list = new List<TDest>();
 
-            var destList = target.Select( convert );
+            var destList = target.Select(convert);
 
             foreach (TDest dest in destList)
             {
-                list.Add( dest );
+                list.Add(dest);
             }
 
             return list;

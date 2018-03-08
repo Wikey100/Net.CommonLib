@@ -7,11 +7,9 @@
 **修改时间   修改人    修改内容概要
 **2013-04-22    xwj       新增
 **********************************************************/
-using System;
-using System.Collections.Generic;
+
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Xml.Serialization;

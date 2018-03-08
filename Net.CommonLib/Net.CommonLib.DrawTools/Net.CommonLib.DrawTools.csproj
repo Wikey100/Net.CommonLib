@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E15BE7E-B323-4C76-9140-B7254B58B54E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DrawTools</RootNamespace>
+    <AssemblyName>Net.CommonLib.DrawTools</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Debug\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\CommandAdd.cs" />
+    <Compile Include="Command\CommandChangeState.cs" />
+    <Compile Include="Command\CommandCopy.cs" />
+    <Compile Include="Command\CommandDelete.cs" />
+    <Compile Include="Command\CommandDeleteAll.cs" />
+    <Compile Include="Command\CommandFullZoom.cs" />
+    <Compile Include="Command\CommandPaste.cs" />
+    <Compile Include="Command\CommandSingleZoom.cs" />
+    <Compile Include="Controls\DrawArea.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DrawArea.designer.cs">
+      <DependentUpon>DrawArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DrawControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DrawControl.Designer.cs">
+      <DependentUpon>DrawControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DrawToolType.cs" />
+    <Compile Include="Controls\IPControl\IpInputTextbox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\IPControl\IpInputTextbox.Designer.cs">
+      <DependentUpon>IpInputTextbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IPControl\NumberTextBoxExt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DB\IDeviceInterface.cs" />
+    <Compile Include="DB\DBDeviceService.cs" />
+    <Compile Include="DeviceTools\Tool.cs" />
+    <Compile Include="DeviceTools\ToolAGMChannel.cs" />
+    <Compile Include="DeviceTools\ToolAGMChannelDual.cs" />
+    <Compile Include="DeviceTools\ToolAGMWallDual.cs" />
+    <Compile Include="DeviceTools\ToolAGMWallDummy.cs" />
+    <Compile Include="DeviceTools\ToolAGMWallSingle.cs" />
+    <Compile Include="DeviceTools\ToolArray.cs" />
+    <Compile Include="DeviceTools\ToolBOM.cs" />
+    <Compile Include="DeviceTools\ToolEllipse.cs" />
+    <Compile Include="DeviceTools\ToolLine.cs" />
+    <Compile Include="DeviceTools\ToolObject.cs" />
+    <Compile Include="DeviceTools\ToolPaidArea.cs" />
+    <Compile Include="DeviceTools\ToolPointer.cs" />
+    <Compile Include="DeviceTools\ToolPolygon.cs" />
+    <Compile Include="DeviceTools\ToolPort.cs" />
+    <Compile Include="DeviceTools\ToolRectangle.cs" />
+    <Compile Include="DeviceTools\ToolSC.cs" />
+    <Compile Include="DeviceTools\ToolSwitch.cs" />
+    <Compile Include="DeviceTools\ToolTCM.cs" />
+    <Compile Include="DeviceTools\ToolText.cs" />
+    <Compile Include="DeviceTools\ToolTVM.cs" />
+    <Compile Include="Device\AGMChannel.cs" />
+    <Compile Include="Device\AGMChannelDual.cs" />
+    <Compile Include="Device\AGMWallDual.cs" />
+    <Compile Include="Device\AGMWallDummy.cs" />
+    <Compile Include="Device\AGMWallSingle.cs" />
+    <Compile Include="Device\Array.cs" />
+    <Compile Include="Device\BOM.cs" />
+    <Compile Include="Device\PaidArea.cs" />
+    <Compile Include="Device\SC.cs" />
+    <Compile Include="Device\Switch.cs" />
+    <Compile Include="Device\SwitchPort.cs" />
+    <Compile Include="Device\TCM.cs" />
+    <Compile Include="Device\Text.cs" />
+    <Compile Include="Device\TVM.cs" />
+    <Compile Include="DocToolkit\AGMChannelEntryHelp.cs" />
+    <Compile Include="DocToolkit\DocManager.cs" />
+    <Compile Include="DocToolkit\DragDropManager.cs" />
+    <Compile Include="DocToolkit\DrawEllipse.cs" />
+    <Compile Include="DocToolkit\DrawLine.cs" />
+    <Compile Include="DocToolkit\DrawObject.cs" />
+    <Compile Include="DocToolkit\DrawPolygon.cs" />
+    <Compile Include="DocToolkit\DrawRectangle.cs" />
+    <Compile Include="DocToolkit\GraphicsList.cs" />
+    <Compile Include="DocToolkit\MruManager.cs" />
+    <Compile Include="DocToolkit\PersistWindowState.cs" />
+    <Compile Include="DocToolkit\UndoManager.cs" />
+    <Compile Include="GUI\AddTextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AddTextForm.designer.cs">
+      <DependentUpon>AddTextForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DrawForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DrawForm.designer.cs">
+      <DependentUpon>DrawForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EditorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EditorDialog.designer.cs">
+      <DependentUpon>EditorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PropertiesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PropertiesDialog.designer.cs">
+      <DependentUpon>PropertiesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SetDrawForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SetDrawForm.designer.cs">
+      <DependentUpon>SetDrawForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SwitchEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SwitchEditDialog.designer.cs">
+      <DependentUpon>SwitchEditDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log\LogHelper.cs" />
+    <Compile Include="Model\DeviceTypeEnum.cs" />
+    <Compile Include="Model\FilterItem.cs" />
+    <Compile Include="Model\GraphicsProperties.cs" />
+    <Compile Include="Model\StationMapModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="StationMapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StationMapForm.Designer.cs">
+      <DependentUpon>StationMapForm.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\DrawArea.resx">
+      <DependentUpon>DrawArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\IPControl\IpInputTextbox.resx">
+      <DependentUpon>IpInputTextbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AddTextForm.resx">
+      <DependentUpon>AddTextForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DrawForm.resx">
+      <DependentUpon>DrawForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EditorDialog.resx">
+      <DependentUpon>EditorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PropertiesDialog.resx">
+      <DependentUpon>PropertiesDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SetDrawForm.resx">
+      <DependentUpon>SetDrawForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SwitchEditDialog.resx">
+      <DependentUpon>SwitchEditDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources5.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StationMapForm.resx">
+      <DependentUpon>StationMapForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DeviceTools\Ellipse.cur" />
+    <EmbeddedResource Include="DeviceTools\Line.cur" />
+    <EmbeddedResource Include="DeviceTools\Pencil.cur" />
+    <EmbeddedResource Include="DeviceTools\PolyHandle.cur" />
+    <EmbeddedResource Include="DeviceTools\Rectangle.cur" />
+    <Content Include="Images\AGLR_00.bmp" />
+    <Content Include="Images\AGLR_02.bmp" />
+    <Content Include="Images\BOM.bmp" />
+    <Content Include="Images\BoxH_empty.gif" />
+    <Content Include="Images\BoxH_fill.gif" />
+    <Content Include="Images\Server.gif" />
+    <Content Include="Images\TCM.bmp" />
+    <Content Include="Images\TVM.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Net.CommonLib.Log\Net.CommonLib.Log.csproj">
+      <Project>{a44f3fe5-8c72-482d-9d7a-831a725b9aa4}</Project>
+      <Name>Net.CommonLib.Log</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

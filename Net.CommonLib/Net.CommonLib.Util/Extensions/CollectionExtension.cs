@@ -1,6 +1,6 @@
 ﻿/*******************************************************************
  * * 文件名： CollectionExtension.cs
- * * 文件作用： 
+ * * 文件作用：
  * *
  * *-------------------------------------------------------------------
  * *修改历史记录：
@@ -14,7 +14,7 @@ namespace Net.CommonLib.Util.Extensions
 {
     public static class CollectionExtension
     {
-        public static bool IsNullOrEmpty<T>( this ICollection<T> collection )
+        public static bool IsNullOrEmpty<T>(this ICollection<T> collection)
         {
             return (collection == null) || (collection.Count == 0);
         }

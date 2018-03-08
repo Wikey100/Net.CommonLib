@@ -1,4 +1,3 @@
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\obj\Debug\Net.CommonLib.UnitTest.csprojResolveAssemblyReference.cache
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -19,5 +18,6 @@ G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Net.CommonLib.Log.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\obj\Debug\Net.CommonLib.UnitTest.csprojResolveAssemblyReference.cache
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\obj\Debug\Net.CommonLib.UnitTest.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\obj\Debug\Net.CommonLib.UnitTest.pdb

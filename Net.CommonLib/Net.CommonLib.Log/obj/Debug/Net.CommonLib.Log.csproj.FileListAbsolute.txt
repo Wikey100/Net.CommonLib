@@ -3,4 +3,3 @@ G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.Log.pdb
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Suntek.Common.Log.XML
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Log\obj\Debug\Net.CommonLib.Log.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Log\obj\Debug\Net.CommonLib.Log.pdb
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Log\obj\Debug\Net.CommonLib.Log.csprojResolveAssemblyReference.cache

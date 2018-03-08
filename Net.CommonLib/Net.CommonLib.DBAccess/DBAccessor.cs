@@ -962,7 +962,10 @@ namespace Net.CommonLib.DBAccess
                     log.Debug(p);
                 }
             }
-            catch { }
+            catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

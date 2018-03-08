@@ -40,21 +40,19 @@ namespace Net.CommonLib.Log
                 SetConfig();
             }
         }
-
         /// <summary>
-        ///
+        /// 
         /// </summary>
         public string DBConnectionString = string.Empty;
-
         /// <summary>
-        ///
+        /// 
         /// </summary>
         public string DBInsertSql = string.Empty;
-
         /// <summary>
-        ///
+        /// 
         /// </summary>
         public DBAppenderParameter[] DBParameter;
+
 
         private log4net.ILog log;
         private ILoggerRepository rep;
@@ -66,9 +64,8 @@ namespace Net.CommonLib.Log
         private RollingType rollingMode = RollingType.Date;
         private long maxFileSize = 10 * 1024 * 1024;
         private int maxSizeRollBackups = 10;
-
         /// <summary>
-        ///
+        /// 
         /// </summary>
         public int MaxSizeRollBackups
         {
@@ -76,10 +73,10 @@ namespace Net.CommonLib.Log
             set { maxSizeRollBackups = value; }
         }
 
+
         // private string datePattern = ".yyyyMMdd'.log'";
 
         private string datePattern = @"\\\\yyyy-MM-dd\\\\yyyyMMdd'.log'";
-
         /// <summary>
         /// Gets or sets 日志输出方式.
         /// </summary>
@@ -92,6 +89,7 @@ namespace Net.CommonLib.Log
                 logType = value;
             }
         }
+
 
         /// <summary>
         /// 设置或获取按日期生成文件时的文件名格式,默认为".yyyyMMdd'.log'"
@@ -141,18 +139,16 @@ namespace Net.CommonLib.Log
                 fileApp.File = filePath;
             }
         }
-
         /// <summary>
-        ///
+        /// 
         /// </summary>
         public long MaxFileSize
         {
             get { return maxFileSize; }
             set { maxFileSize = value; }
         }
-
         /// <summary>
-        ///
+        /// 
         /// </summary>
         public int MaxBackIndex { get; set; }
 
@@ -177,6 +173,7 @@ namespace Net.CommonLib.Log
             fileApp.Layout = new PatternLayout(strLayoutPattern);
             fileApp.File = filePath;
         }
+
 
         /// <summary>
         /// 设置配置
@@ -269,10 +266,10 @@ namespace Net.CommonLib.Log
             }
 
             log = LogManager.GetLogger(rep.Name, logName);
+
         }
 
         #region 接口实现
-
         /// <summary>
         /// 记录错误信息
         /// </summary>
@@ -320,6 +317,7 @@ namespace Net.CommonLib.Log
             log.Warn(msg);
         }
 
+
         /// <summary>
         /// 记录警告信息
         /// </summary>
@@ -338,6 +336,7 @@ namespace Net.CommonLib.Log
         {
             log.Fatal(msg);
         }
+
 
         /// <summary>
         /// 记录重大错误信息
@@ -367,17 +366,16 @@ namespace Net.CommonLib.Log
         {
             log.Debug(msg, e);
         }
+        #endregion
 
-        #endregion 接口实现
     }
-
     /// <summary>
-    ///
+    /// 
     /// </summary>
     public class DBAppenderParameter : AdoNetAppenderParameter
     {
         /// <summary>
-        ///
+        /// 
         /// </summary>
         /// <param name="paramterName"></param>
         /// <param name="dbType"></param>
@@ -392,9 +390,8 @@ namespace Net.CommonLib.Log
             this.Layout = rawlayout;
             this.Size = size;
         }
-
         /// <summary>
-        ///
+        /// 
         /// </summary>
         /// <param name="parameterName"></param>
         /// <param name="dbType"></param>

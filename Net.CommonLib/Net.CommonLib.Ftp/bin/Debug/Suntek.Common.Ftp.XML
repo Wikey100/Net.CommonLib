@@ -10,9 +10,9 @@
             </summary>
         </member>
         <member name="T:Net.CommonLib.Ftp.FtpClient">
-            <summary>
+             <summary>
             
-            </summary>
+             </summary>
         </member>
         <member name="F:Net.CommonLib.Ftp.FtpClient.userName">
             <summary>

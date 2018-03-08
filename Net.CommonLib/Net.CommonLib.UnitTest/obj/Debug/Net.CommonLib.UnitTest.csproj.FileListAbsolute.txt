@@ -17,8 +17,8 @@ G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Suntek.Common.DBAccess.pdb
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Suntek.Common.Log.pdb
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Suntek.Common.Log.xml
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\obj\Debug\Net.CommonLib.UnitTest.csprojResolveAssemblyReference.cache
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\obj\Debug\Net.CommonLib.UnitTest.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\obj\Debug\Net.CommonLib.UnitTest.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Suntek.Common.Log.pdb

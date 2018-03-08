@@ -23,6 +23,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.Controls", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.UnitTest", "Net.CommonLib.UnitTest\Net.CommonLib.UnitTest.csproj", "{A299744C-5E2A-4557-871D-A1E0C50C262C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.ActiveMqQueue", "Net.CommonLib.ActiveMqQueue\Net.CommonLib.ActiveMqQueue.csproj", "{9FCE6C3A-0006-4D9B-9F51-3DFD64B62BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.Prism", "Net.CommonLib.Prism\Net.CommonLib.Prism.csproj", "{C293210F-940B-4044-9A13-8564B58F889B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.CacheManager", "Net.CommonLib.CacheManager\Net.CommonLib.CacheManager.csproj", "{FC4C6432-9746-4637-97B0-E378852CBEA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.ICE", "Net.CommonLib.ICE\Net.CommonLib.ICE.csproj", "{040320AC-F10B-4A56-99EF-C7095801A54F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.SocketComm", "Net.CommonLib.SocketComm\Net.CommonLib.SocketComm.csproj", "{C640A146-0031-4931-8F0D-81CA7D1EE9F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.ClockSync", "Net.CommonLib.ClockSync\Net.CommonLib.ClockSync.csproj", "{C280A038-A196-4C5C-A279-38CA7B461370}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +81,30 @@ Global
 		{A299744C-5E2A-4557-871D-A1E0C50C262C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A299744C-5E2A-4557-871D-A1E0C50C262C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A299744C-5E2A-4557-871D-A1E0C50C262C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FCE6C3A-0006-4D9B-9F51-3DFD64B62BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCE6C3A-0006-4D9B-9F51-3DFD64B62BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCE6C3A-0006-4D9B-9F51-3DFD64B62BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCE6C3A-0006-4D9B-9F51-3DFD64B62BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C293210F-940B-4044-9A13-8564B58F889B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C293210F-940B-4044-9A13-8564B58F889B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C293210F-940B-4044-9A13-8564B58F889B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C293210F-940B-4044-9A13-8564B58F889B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4C6432-9746-4637-97B0-E378852CBEA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4C6432-9746-4637-97B0-E378852CBEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4C6432-9746-4637-97B0-E378852CBEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4C6432-9746-4637-97B0-E378852CBEA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{040320AC-F10B-4A56-99EF-C7095801A54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040320AC-F10B-4A56-99EF-C7095801A54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040320AC-F10B-4A56-99EF-C7095801A54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040320AC-F10B-4A56-99EF-C7095801A54F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C640A146-0031-4931-8F0D-81CA7D1EE9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C640A146-0031-4931-8F0D-81CA7D1EE9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C640A146-0031-4931-8F0D-81CA7D1EE9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C640A146-0031-4931-8F0D-81CA7D1EE9F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C280A038-A196-4C5C-A279-38CA7B461370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C280A038-A196-4C5C-A279-38CA7B461370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C280A038-A196-4C5C-A279-38CA7B461370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C280A038-A196-4C5C-A279-38CA7B461370}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

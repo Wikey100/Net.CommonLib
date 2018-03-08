@@ -1,0 +1,5 @@
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ICE\bin\Debug\Net.CommonLib.ICE.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ICE\bin\Debug\Net.CommonLib.ICE.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ICE\obj\Debug\Net.CommonLib.ICE.csprojResolveAssemblyReference.cache
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ICE\obj\Debug\Net.CommonLib.ICE.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ICE\obj\Debug\Net.CommonLib.ICE.pdb

@@ -87,7 +87,6 @@ namespace Net.CommonLib.DBAccess
         /// <returns>分页Sql语句</returns>
         public abstract string GetPagedQuerySql(string sql, int startIndex, int pageLen);
 
-        //public abstract string GetPagedQuerySqlByOrder(string sql, int startIndex, int pageLen, string orderProperty);
 
         #endregion abastract Method
 
@@ -107,6 +106,15 @@ namespace Net.CommonLib.DBAccess
             return para;
         }
 
+        /// <summary>
+        /// 创建参数
+        /// </summary>
+        /// <param name="name">参数名</param>
+        /// <param name="value">参数值</param>
+        /// <param name="type">参数类型</param>
+        /// <param name="size">参数大小</param>
+        /// <param name="direction"></param>
+        /// <returns></returns>
         public virtual IDbDataParameter GetParameter(string name, object value, DbType type, int size, ParameterDirection direction)
         {
             IDbDataParameter para = GetParameter(name, value, type, size);
@@ -115,6 +123,15 @@ namespace Net.CommonLib.DBAccess
             return para;
         }
 
+        /// <summary>
+        /// 创建参数
+        /// </summary>
+        /// <param name="name">参数名</param>
+        /// <param name="value">参数值</param>
+        /// <param name="dbType">数据库类型</param>
+        /// <param name="size">参数大小</param>
+        /// <param name="direction"></param>
+        /// <returns></returns>
         public virtual IDbDataParameter GetParameter(string name, object value, Int32 dbType, int size, ParameterDirection direction)
         {
             IDbDataParameter para = GetParameter(name, value, (DbType)dbType, size);
@@ -123,7 +140,6 @@ namespace Net.CommonLib.DBAccess
             return para;
         }
 
-        //2012-5-17
         /// <summary>
         /// 获取当前正在执行命令
         /// </summary>

@@ -73,7 +73,6 @@
     <Compile Include="DBConnector.cs" />
     <Compile Include="OleDbConnector.cs" />
     <Compile Include="MySqlConnector.cs" />
-    <Compile Include="OracleDBAccessor.cs" />
     <Compile Include="OracleDBConnector.cs" />
     <Compile Include="SQLServerDBConnector.cs" />
     <Compile Include="SybaseConnnector.cs" />

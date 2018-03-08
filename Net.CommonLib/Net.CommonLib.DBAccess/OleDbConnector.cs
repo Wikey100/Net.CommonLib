@@ -1,6 +1,6 @@
 ﻿/*******************************************************************
  * * 文件名： OleDbConnector.cs
- * * 文件作用：
+ * * 文件作用：OleDb连接类
  * *
  * *-------------------------------------------------------------------
  * *修改历史记录：
@@ -11,6 +11,7 @@
 using System;
 using System.Data;
 using System.Data.OleDb;
+using System.Text;
 
 namespace Net.CommonLib.DBAccess
 {
@@ -93,7 +94,16 @@ namespace Net.CommonLib.DBAccess
         /// <returns></returns>
         public override string GetPagedQuerySql(string sql, int startIndex, int pageLen)
         {
-            throw new NotImplementedException();
+            StringBuilder pageSql = new StringBuilder();
+            pageSql.Append("select * from (")
+                .Append(sql)
+                .Append(") _temp limit ")
+                .Append(startIndex)
+                .Append(",")
+                .Append(pageLen)
+                .Append(";")
+                .Append("select count(*) from (").Append(sql).Append(") _tempCount");
+            return pageSql.ToString();
         }
     }
 }

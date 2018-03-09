@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.ActiveMqQueue
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.DrawTools", "Net.CommonLib.DrawTools\Net.CommonLib.DrawTools.csproj", "{4E15BE7E-B323-4C76-9140-B7254B58B54E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.Exception", "Net.CommonLib.Exception\Net.CommonLib.Exception.csproj", "{FD460412-52EE-4FD1-B5B6-68E1C28C3D59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{4E15BE7E-B323-4C76-9140-B7254B58B54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E15BE7E-B323-4C76-9140-B7254B58B54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E15BE7E-B323-4C76-9140-B7254B58B54E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD460412-52EE-4FD1-B5B6-68E1C28C3D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD460412-52EE-4FD1-B5B6-68E1C28C3D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD460412-52EE-4FD1-B5B6-68E1C28C3D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD460412-52EE-4FD1-B5B6-68E1C28C3D59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

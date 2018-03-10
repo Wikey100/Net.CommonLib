@@ -1,5 +1,5 @@
 ﻿/*******************************************************************
- * * 文件名：
+ * * 文件名：FileSizePresentor
  * * 文件作用：
  * *-------------------------------------------------------------------
  * * 修改历史记录：
@@ -15,7 +15,6 @@ namespace Net.CommonLib.Ftp
         public static double Mill = 1024 * 1024;
         public static double Giga = 1024 * 1024 * 1024;
 
-        //public static long Tega = 1024 * 1024 * 1024;
         public static string GetPersent(long size)
         {
             if (size < Kilo)

@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*******************************************************************
+ * * 文件名： NTPClient.cs
+ * * 文件作用： NTP时间同步处理类
+ * *
+ * *-------------------------------------------------------------------
+ * *修改历史记录：
+ * *修改时间      修改人    修改内容概要
+ * *2018-03-10    xwj         更新
+ * *******************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
@@ -37,6 +47,7 @@ namespace Net.CommonLib.ClockSync
     {
         // Fields
         public IPEndPoint e;
+
         public UdpClient u;
     }
 
@@ -47,6 +58,7 @@ namespace Net.CommonLib.ClockSync
     {
         // Fields
         private static byte[] cbReceiveBytes = null;
+
         public static bool messageReceived = false;
         private byte[] NTPData = new byte[0x30];
         private const byte NTPDataLength = 0x30;
@@ -280,6 +292,7 @@ namespace Net.CommonLib.ClockSync
 
         [DllImport("kernel32.dll", SetLastError = true)]
         private static extern bool SetLocalTime(ref SYSTEMTIME time);
+
         private bool SetTime()
         {
             SYSTEMTIME st;
@@ -371,7 +384,6 @@ namespace Net.CommonLib.ClockSync
             }
             return ((((((((str + "\r\nLocal time: " + this.TransmitTimestamp.ToString()) + "\r\nPrecision: " + this.Precision.ToString() + " ms") + "\r\nPoll Interval: " + this.PollInterval.ToString() + " s") + "\r\nReference ID: " + this.ReferenceID.ToString()) + "\r\nRoot Dispersion: " + this.RootDispersion.ToString() + " ms") + "\r\nRound Trip Delay: " + this.RoundTripDelay.ToString() + " ms") + "\r\nLocal Clock Offset: " + this.LocalClockOffset.ToString() + " ms") + "\r\n");
         }
-
 
         public _LeapIndicator LeapIndicator
         {
@@ -541,8 +553,6 @@ namespace Net.CommonLib.ClockSync
                 return (int)span.TotalMilliseconds;
             }
         }
-
-
 
         public _Stratum Stratum
         {

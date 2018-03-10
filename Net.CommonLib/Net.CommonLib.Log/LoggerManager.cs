@@ -55,7 +55,6 @@ namespace Net.CommonLib.Log
             }
             else
             {
-
                 Logger log = new Logger(logName);
                 if (isDefaultSetting)
                 {
@@ -73,9 +72,10 @@ namespace Net.CommonLib.Log
     public enum LogType : short
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         None = 0x00,
+
         /// <summary>
         /// log文件
         /// </summary>
@@ -90,6 +90,7 @@ namespace Net.CommonLib.Log
         /// 数据库输出
         /// </summary>
         DataBase = 0x04,         //数据库输出
+
         /// <summary>
         /// Debug输出
         /// </summary>
@@ -105,14 +106,17 @@ namespace Net.CommonLib.Log
         /// 唯一
         /// </summary>
         Once = 0,
+
         /// <summary>
         /// 按大小
         /// </summary>
         Size = 1,
+
         /// <summary>
         /// 按时间
         /// </summary>
         Date = 2,
+
         /// <summary>
         /// 混合
         /// </summary>

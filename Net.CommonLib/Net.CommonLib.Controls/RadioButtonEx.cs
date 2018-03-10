@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.Windows.Forms;
 
 namespace Net.CommonLib.Controls
 {
@@ -17,6 +15,7 @@ namespace Net.CommonLib.Controls
             ContentAlignment.TopRight |
             ContentAlignment.BottomRight |
             ContentAlignment.MiddleRight;
+
         private static readonly ContentAlignment LeftAligbment =
             ContentAlignment.TopLeft |
             ContentAlignment.BottomLeft |
@@ -125,12 +124,14 @@ namespace Net.CommonLib.Controls
                         checkColor = GetColor(_baseColor, 0, 35, 24, 9);
                         hover = true;
                         break;
+
                     case ControlState.Pressed:
                         borderColor = _baseColor;
                         innerBorderColor = GetColor(_baseColor, 0, -13, -8, -3);
                         checkColor = GetColor(_baseColor, 0, -35, -24, -9);
                         hover = true;
                         break;
+
                     default:
                         borderColor = _baseColor;
                         innerBorderColor = Color.Empty;
@@ -197,7 +198,6 @@ namespace Net.CommonLib.Controls
 
             System.Drawing.Pen pen2 = new System.Drawing.Pen(System.Drawing.Color.Gray, 1);
 
-
             e.Graphics.DrawRectangle(pen2, textRect.Location.X, textRect.Location.Y, textRect.Width - 1, textRect.Height - 1);
         }
 
@@ -220,10 +220,12 @@ namespace Net.CommonLib.Controls
                     case ContentAlignment.TopLeft:
                         radioButtonRect.Y = 2;
                         break;
+
                     case ContentAlignment.MiddleRight:
                     case ContentAlignment.MiddleLeft:
                         radioButtonRect.Y = (Height - DefaultCheckButtonWidth) / 2;
                         break;
+
                     case ContentAlignment.BottomRight:
                     case ContentAlignment.BottomLeft:
                         radioButtonRect.Y = Height - DefaultCheckButtonWidth - 2;
@@ -247,10 +249,12 @@ namespace Net.CommonLib.Controls
                     case ContentAlignment.TopRight:
                         radioButtonRect.Y = 2;
                         break;
+
                     case ContentAlignment.MiddleLeft:
                     case ContentAlignment.MiddleRight:
                         radioButtonRect.Y = (Height - DefaultCheckButtonWidth) / 2;
                         break;
+
                     case ContentAlignment.BottomLeft:
                     case ContentAlignment.BottomRight:
                         radioButtonRect.Y = Height - DefaultCheckButtonWidth - 2;
@@ -271,11 +275,13 @@ namespace Net.CommonLib.Controls
                         textRect.Y = radioButtonRect.Bottom + 2;
                         textRect.Height = Height - DefaultCheckButtonWidth - 6;
                         break;
+
                     case ContentAlignment.MiddleCenter:
                         radioButtonRect.Y = (Height - DefaultCheckButtonWidth) / 2;
                         textRect.Y = 0;
                         textRect.Height = Height;
                         break;
+
                     case ContentAlignment.BottomCenter:
                         radioButtonRect.Y = Height - DefaultCheckButtonWidth - 2;
                         textRect.Y = 0;
@@ -321,28 +327,36 @@ namespace Net.CommonLib.Controls
                 case ContentAlignment.BottomCenter:
                     flags |= TextFormatFlags.Bottom | TextFormatFlags.HorizontalCenter;
                     break;
+
                 case ContentAlignment.BottomLeft:
                     flags |= TextFormatFlags.Bottom | TextFormatFlags.Left;
                     break;
+
                 case ContentAlignment.BottomRight:
                     flags |= TextFormatFlags.Bottom | TextFormatFlags.Right;
                     break;
+
                 case ContentAlignment.MiddleCenter:
                     flags |= TextFormatFlags.HorizontalCenter |
                         TextFormatFlags.VerticalCenter;
                     break;
+
                 case ContentAlignment.MiddleLeft:
                     flags |= TextFormatFlags.VerticalCenter | TextFormatFlags.Left;
                     break;
+
                 case ContentAlignment.MiddleRight:
                     flags |= TextFormatFlags.VerticalCenter | TextFormatFlags.Right;
                     break;
+
                 case ContentAlignment.TopCenter:
                     flags |= TextFormatFlags.Top | TextFormatFlags.HorizontalCenter;
                     break;
+
                 case ContentAlignment.TopLeft:
                     flags |= TextFormatFlags.Top | TextFormatFlags.Left;
                     break;
+
                 case ContentAlignment.TopRight:
                     flags |= TextFormatFlags.Top | TextFormatFlags.Right;
                     break;
@@ -360,14 +374,17 @@ namespace Net.CommonLib.Controls
         ///  正常。
         /// </summary>
         Normal,
+
         /// <summary>
         /// 鼠标进入。
         /// </summary>
         Hover,
+
         /// <summary>
         /// 鼠标按下。
         /// </summary>
         Pressed,
+
         /// <summary>
         /// 获得焦点。
         /// </summary>

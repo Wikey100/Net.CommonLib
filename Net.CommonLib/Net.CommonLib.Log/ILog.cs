@@ -32,6 +32,7 @@ namespace Net.CommonLib.Log
         /// </summary>
         /// <param name="msg">信息</param>
         void Info(string msg);
+
         /// <summary>
         /// 记录消息信息
         /// </summary>
@@ -44,6 +45,7 @@ namespace Net.CommonLib.Log
         /// </summary>
         /// <param name="msg">信息</param>
         void Warn(string msg);
+
         /// <summary>
         /// 记录警告信息
         /// </summary>
@@ -56,6 +58,7 @@ namespace Net.CommonLib.Log
         /// </summary>
         /// <param name="msg">信息</param>
         void Fatal(string msg);
+
         /// <summary>
         /// 记录重大错误信息
         /// </summary>
@@ -68,6 +71,7 @@ namespace Net.CommonLib.Log
         /// </summary>
         /// <param name="msg">信息</param>
         void Debug(string msg);
+
         /// <summary>
         /// 记录Debug信息
         /// </summary>

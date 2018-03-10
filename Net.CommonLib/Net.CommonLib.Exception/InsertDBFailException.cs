@@ -7,24 +7,20 @@
  * *修改时间      修改人    修改内容概要
  * *2018-03-10    xwj       新增
  * *******************************************************************/
+
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Runtime.Serialization;
 
 namespace Net.CommonLib.Exception
 {
     [Serializable]
-    public class InsertDBFailException:ApplicationException
+    public class InsertDBFailException : ApplicationException
     {
         /// <summary>
         /// 添加一个默认的构造函数
         /// </summary>
         public InsertDBFailException()
         {
-
         }
 
         /// <summary>
@@ -32,9 +28,8 @@ namespace Net.CommonLib.Exception
         /// </summary>
         /// <param name="message"></param>
         public InsertDBFailException(string message)
-            :base(message)
+            : base(message)
         {
-
         }
 
         /// <summary>
@@ -42,10 +37,9 @@ namespace Net.CommonLib.Exception
         /// </summary>
         /// <param name="message"></param>
         /// <param name="exception"></param>
-        public InsertDBFailException(string message,ApplicationException exception)
-            :base(message,exception)
+        public InsertDBFailException(string message, ApplicationException exception)
+            : base(message, exception)
         {
-
         }
 
         /// <summary>
@@ -53,10 +47,9 @@ namespace Net.CommonLib.Exception
         /// </summary>
         /// <param name="info"></param>
         /// <param name="context"></param>
-        public InsertDBFailException(SerializationInfo info,StreamingContext context)
-            :base(info,context)
+        public InsertDBFailException(SerializationInfo info, StreamingContext context)
+            : base(info, context)
         {
-
         }
     }
 }

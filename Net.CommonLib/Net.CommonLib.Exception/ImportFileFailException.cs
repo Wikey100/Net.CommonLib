@@ -7,35 +7,29 @@
  * *修改时间      修改人    修改内容概要
  * *2018-03-10    xwj       新增
  * *******************************************************************/
+
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Runtime;
 using System.Runtime.Serialization;
 
 namespace Net.CommonLib.Exception
 {
     [Serializable]
-    public class ImportFileFailException:ApplicationException
+    public class ImportFileFailException : ApplicationException
     {
         /// <summary>
         /// 添加一个默认的构造函数
         /// </summary>
         public ImportFileFailException()
         {
-
         }
 
         /// <summary>
         /// 添加一个包含Message的构造函数
         /// </summary>
         /// <param name="message"></param>
-        public ImportFileFailException (string message)
-            :base(message)
+        public ImportFileFailException(string message)
+            : base(message)
         {
-
         }
 
         /// <summary>
@@ -43,10 +37,9 @@ namespace Net.CommonLib.Exception
         /// </summary>
         /// <param name="message"></param>
         /// <param name="exception"></param>
-        public ImportFileFailException(string message,ApplicationException exception)
-            :base(message,exception)
+        public ImportFileFailException(string message, ApplicationException exception)
+            : base(message, exception)
         {
-
         }
 
         /// <summary>
@@ -54,11 +47,9 @@ namespace Net.CommonLib.Exception
         /// </summary>
         /// <param name="info"></param>
         /// <param name="context"></param>
-        public ImportFileFailException(SerializationInfo info,StreamingContext context)
-            :base(info,context)
+        public ImportFileFailException(SerializationInfo info, StreamingContext context)
+            : base(info, context)
         {
-
         }
-
     }
 }

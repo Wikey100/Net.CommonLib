@@ -6,6 +6,7 @@
  * * 修改时间      修改人    修改内容概要
  * * 2013-02-23    xwj       新增
  * *******************************************************************/
+
 using System;
 using System.Windows;
 using System.Windows.Controls;
@@ -30,17 +31,15 @@ namespace Net.CommonLib.Controls
 
         public static readonly DependencyProperty ValueProperty = DependencyProperty.Register("Value", typeof(decimal), typeof(NumberTextBoxControl), new PropertyMetadata(decimal.Zero));
 
-
         public NumberTextBoxControl()
                 : base()
-            {
+        {
             this.VerticalContentAlignment = VerticalAlignment.Center;
             this.TextChanged += new TextChangedEventHandler(NumericBox_TextChanged);
         }
 
         private string backupString = "";
 
-        
         private void NumericBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             TextBox tb = (TextBox)sender;
@@ -58,7 +57,6 @@ namespace Net.CommonLib.Controls
             Value = tempvalue;
         }
 
-        
         private bool isDecimal(string source)
         {
             foreach (char item in source)

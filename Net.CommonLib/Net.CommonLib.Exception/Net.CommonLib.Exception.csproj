@@ -40,7 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseCommonLibException.cs" />
+    <Compile Include="ImportFileFailException.cs" />
+    <Compile Include="InsertDBFailException.cs" />
+    <Compile Include="InvalidCRCException.cs" />
+    <Compile Include="MsgParseFailException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Readme\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

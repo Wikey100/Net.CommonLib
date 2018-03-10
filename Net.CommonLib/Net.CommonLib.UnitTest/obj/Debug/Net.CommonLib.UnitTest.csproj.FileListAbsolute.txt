@@ -21,3 +21,5 @@ G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\obj\Debug\Net.CommonLib.UnitTest.csprojResolveAssemblyReference.cache
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\obj\Debug\Net.CommonLib.UnitTest.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\obj\Debug\Net.CommonLib.UnitTest.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Net.CommonLib.Exception.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.UnitTest\bin\Debug\Net.CommonLib.Exception.pdb

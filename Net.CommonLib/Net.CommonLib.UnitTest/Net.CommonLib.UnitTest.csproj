@@ -50,6 +50,8 @@
   <ItemGroup>
     <Compile Include="DBAccessUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ExceptionUnitTest.cs" />
+    <Compile Include="UnitTest2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -58,6 +60,10 @@
     <ProjectReference Include="..\Net.CommonLib.DBAccess\Net.CommonLib.DBAccess.csproj">
       <Project>{85e32d4c-4e92-40ed-9341-6a535e1a4d89}</Project>
       <Name>Net.CommonLib.DBAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Net.CommonLib.Exception\Net.CommonLib.Exception.csproj">
+      <Project>{fd460412-52ee-4fd1-b5b6-68e1c28c3d59}</Project>
+      <Name>Net.CommonLib.Exception</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

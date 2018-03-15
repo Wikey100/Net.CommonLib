@@ -7,25 +7,39 @@
  * *修改时间      修改人    修改内容概要
  * *2018-03-15    xwj       新增
  * *******************************************************************/
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+
 using Net.CommonLib.Log;
+using System;
 
 namespace Net.CommonLib.CacheManager
 {
     public class CacheManagerLog : ILog
     {
+        private string logName = "CacheManagerLog";
+
+        private static CacheManagerLog instance = null;
+
+        public static CacheManagerLog Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new CacheManagerLog();
+                }
+                return instance;
+            }
+        }
+
         public void Debug(string msg)
         {
             try
             {
-
+                new Logger(logName).Debug(msg);
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message,ex);
+                throw new Exception(ex.Message, ex);
             }
         }
 
@@ -33,11 +47,11 @@ namespace Net.CommonLib.CacheManager
         {
             try
             {
-
+                new Logger(logName).Debug(msg, e);
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message,ex);
+                throw new Exception(ex.Message, ex);
             }
         }
 
@@ -45,11 +59,11 @@ namespace Net.CommonLib.CacheManager
         {
             try
             {
-
+                new Logger(logName).Error(msg);
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message,ex);
+                throw new Exception(ex.Message, ex);
             }
         }
 
@@ -57,11 +71,11 @@ namespace Net.CommonLib.CacheManager
         {
             try
             {
-
+                new Logger(logName).Error(msg, e);
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message,ex);
+                throw new Exception(ex.Message, ex);
             }
         }
 
@@ -69,11 +83,11 @@ namespace Net.CommonLib.CacheManager
         {
             try
             {
-
+                new Logger(logName).Fatal(msg);
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message,ex);
+                throw new Exception(ex.Message, ex);
             }
         }
 
@@ -81,11 +95,11 @@ namespace Net.CommonLib.CacheManager
         {
             try
             {
-
+                new Logger(logName).Fatal(msg);
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message,ex);
+                throw new Exception(ex.Message, ex);
             }
         }
 
@@ -93,11 +107,11 @@ namespace Net.CommonLib.CacheManager
         {
             try
             {
-
+                new Logger(logName).Info(msg);
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message,ex);
+                throw new Exception(ex.Message, ex);
             }
         }
 
@@ -105,11 +119,11 @@ namespace Net.CommonLib.CacheManager
         {
             try
             {
-
+                new Logger(logName).Info(msg, e);
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message,ex);
+                throw new Exception(ex.Message, ex);
             }
         }
 
@@ -117,11 +131,11 @@ namespace Net.CommonLib.CacheManager
         {
             try
             {
-
+                new Logger(logName).Warn(msg);
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message,ex);
+                throw new Exception(ex.Message, ex);
             }
         }
 
@@ -129,11 +143,11 @@ namespace Net.CommonLib.CacheManager
         {
             try
             {
-
+                new Logger(logName).Warn(msg,e);
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message,ex);
+                throw new Exception(ex.Message, ex);
             }
         }
     }

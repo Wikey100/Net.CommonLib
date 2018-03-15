@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClockSyncLog.cs" />
     <Compile Include="NTPClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -55,6 +55,7 @@
     <Compile Include="DownProgressEvent.cs" />
     <Compile Include="FileSizePresentor.cs" />
     <Compile Include="FtpClient.cs" />
+    <Compile Include="FtpLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

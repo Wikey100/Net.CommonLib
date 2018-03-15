@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="ConnectorFactory.cs" />
     <Compile Include="ConnectType.cs" />
+    <Compile Include="DBAccessLog.cs" />
     <Compile Include="DBConnector.cs" />
     <Compile Include="OleDbConnector.cs" />
     <Compile Include="MySqlConnector.cs" />

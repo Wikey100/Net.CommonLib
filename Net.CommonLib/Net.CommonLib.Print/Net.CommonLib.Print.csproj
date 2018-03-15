@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="NotePrinter.cs" />
     <Compile Include="PrintException.cs" />
+    <Compile Include="PrintLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReceiptManager.cs" />
   </ItemGroup>

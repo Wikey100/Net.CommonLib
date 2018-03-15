@@ -80,6 +80,7 @@
     <Compile Include="LCTicketing\TicketApplyResponeMessage.cs" />
     <Compile Include="LCTicketing\TicketDispatchRepealMessage.cs" />
     <Compile Include="LCTicketing\TicketTurnInMessage.cs" />
+    <Compile Include="MessageLog.cs" />
     <Compile Include="PasswordChangeMessage.cs" />
     <Compile Include="RunningModeChangeNotifyMessage.cs" />
     <Compile Include="StatusResponse\CoinBoxQtyResponseMessage.cs" />

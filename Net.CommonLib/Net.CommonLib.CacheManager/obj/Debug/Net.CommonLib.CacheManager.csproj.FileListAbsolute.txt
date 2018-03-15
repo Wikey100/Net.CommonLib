@@ -2,5 +2,6 @@ G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.CacheManager\bin\De
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.CacheManager\bin\Debug\Net.CommonLib.CacheManager.pdb
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.CacheManager.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.CacheManager.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.CacheManager\obj\Debug\Net.CommonLib.CacheManager.csprojResolveAssemblyReference.cache
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.CacheManager\obj\Debug\Net.CommonLib.CacheManager.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.CacheManager\obj\Debug\Net.CommonLib.CacheManager.pdb

@@ -4,5 +4,6 @@ G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Ftp\bin\Debug\Sunte
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.Ftp.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.Ftp.pdb
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Suntek.Common.Ftp.XML
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Ftp\obj\Debug\Net.CommonLib.Ftp.csprojResolveAssemblyReference.cache
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Ftp\obj\Debug\Net.CommonLib.Ftp.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Ftp\obj\Debug\Net.CommonLib.Ftp.pdb

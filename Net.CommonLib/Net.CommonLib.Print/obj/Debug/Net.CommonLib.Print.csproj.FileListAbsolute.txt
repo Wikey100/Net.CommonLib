@@ -2,5 +2,6 @@ G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Print\bin\Debug\AFC
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Print\bin\Debug\AFC.Common.Print.pdb
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.Print.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.Print.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Print\obj\Debug\Net.CommonLib.Print.csprojResolveAssemblyReference.cache
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Print\obj\Debug\Net.CommonLib.Print.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Print\obj\Debug\Net.CommonLib.Print.pdb

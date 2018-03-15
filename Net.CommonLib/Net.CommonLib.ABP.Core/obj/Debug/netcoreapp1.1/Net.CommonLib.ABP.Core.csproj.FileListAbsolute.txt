@@ -1,0 +1,7 @@
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Core\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.Core.deps.json
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Core\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.Core.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Core\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.Core.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Core\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.Core.csprojResolveAssemblyReference.cache
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Core\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.Core.AssemblyInfo.cs
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Core\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.Core.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Core\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.Core.pdb

@@ -16,24 +16,24 @@
             <value>输出格式.</value>
         </member>
         <member name="F:Net.CommonLib.Log.Logger.DBConnectionString">
-            <summary>
+             <summary>
             
-            </summary>
+             </summary>
         </member>
         <member name="F:Net.CommonLib.Log.Logger.DBInsertSql">
-            <summary>
+             <summary>
             
-            </summary>
+             </summary>
         </member>
         <member name="F:Net.CommonLib.Log.Logger.DBParameter">
-            <summary>
+             <summary>
             
-            </summary>
+             </summary>
         </member>
         <member name="P:Net.CommonLib.Log.Logger.MaxSizeRollBackups">
-            <summary>
+             <summary>
             
-            </summary>
+             </summary>
         </member>
         <member name="P:Net.CommonLib.Log.Logger.LogType">
             <summary>
@@ -60,14 +60,14 @@
             </summary>
         </member>
         <member name="P:Net.CommonLib.Log.Logger.MaxFileSize">
-            <summary>
+             <summary>
             
-            </summary>
+             </summary>
         </member>
         <member name="P:Net.CommonLib.Log.Logger.MaxBackIndex">
-            <summary>
+             <summary>
             
-            </summary>
+             </summary>
         </member>
         <member name="M:Net.CommonLib.Log.Logger.#ctor(System.String)">
             <summary>
@@ -146,26 +146,26 @@
             <param name="e"></param>
         </member>
         <member name="T:Net.CommonLib.Log.DBAppenderParameter">
-            <summary>
+             <summary>
             
-            </summary>
+             </summary>
         </member>
         <member name="M:Net.CommonLib.Log.DBAppenderParameter.#ctor(System.String,System.Data.DbType,System.String,System.Int32)">
-            <summary>
+             <summary>
             
-            </summary>
-            <param name="paramterName"></param>
-            <param name="dbType"></param>
-            <param name="layout"></param>
-            <param name="size"></param>
+             </summary>
+             <param name="paramterName"></param>
+             <param name="dbType"></param>
+             <param name="layout"></param>
+             <param name="size"></param>
         </member>
         <member name="M:Net.CommonLib.Log.DBAppenderParameter.#ctor(System.String,System.Data.DbType,System.String)">
-            <summary>
+             <summary>
             
-            </summary>
-            <param name="parameterName"></param>
-            <param name="dbType"></param>
-            <param name="layout"></param>
+             </summary>
+             <param name="parameterName"></param>
+             <param name="dbType"></param>
+             <param name="layout"></param>
         </member>
         <member name="M:Net.CommonLib.Log.ILog.Error(System.String)">
             <summary>
@@ -260,9 +260,9 @@
             </summary>
         </member>
         <member name="F:Net.CommonLib.Log.LogType.None">
-            <summary>
+             <summary>
             
-            </summary>
+             </summary>
         </member>
         <member name="F:Net.CommonLib.Log.LogType.File">
             <summary>

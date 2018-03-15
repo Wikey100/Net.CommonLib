@@ -1,5 +1,8 @@
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Exception\bin\Debug\Net.CommonLib.Exception.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Exception\bin\Debug\Net.CommonLib.Exception.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Exception\bin\Debug\Net.CommonLib.Log.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Exception\bin\Debug\log4net.dll
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Exception\bin\Debug\Net.CommonLib.Log.pdb
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Exception\obj\Debug\Net.CommonLib.Exception.csprojResolveAssemblyReference.cache
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Exception\obj\Debug\Net.CommonLib.Exception.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Exception\obj\Debug\Net.CommonLib.Exception.pdb

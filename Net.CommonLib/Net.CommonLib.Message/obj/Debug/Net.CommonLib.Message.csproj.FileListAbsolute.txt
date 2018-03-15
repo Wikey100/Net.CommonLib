@@ -1,4 +1,5 @@
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.Message.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.Message.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Message\obj\Debug\Net.CommonLib.Message.csprojResolveAssemblyReference.cache
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Message\obj\Debug\Net.CommonLib.Message.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.Message\obj\Debug\Net.CommonLib.Message.pdb

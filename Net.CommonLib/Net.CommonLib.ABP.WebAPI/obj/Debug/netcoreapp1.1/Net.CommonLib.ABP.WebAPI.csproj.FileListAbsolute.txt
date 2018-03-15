@@ -4,3 +4,4 @@ G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.WebAPI\bin\Debu
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.WebAPI\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.WebAPI.AssemblyInfo.cs
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.WebAPI\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.WebAPI.dll
 G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.WebAPI\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.WebAPI.pdb
+G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.WebAPI\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.WebAPI.csprojResolveAssemblyReference.cache

@@ -21,16 +21,13 @@ Net.CommonLib项目是自己多年积累下的包括各种功能的第二次高�
  
  9、Net.CommonLib.Log --日志框架log4net二次封装，并添加自定义异常处理
  
- 10、Net.CommonLib.Message --Socket通迅报文解析模板，可封装和解析处理通迅报文，并添加自定义日志和自定义异常处理
+ 10、Net.CommonLib.Print --打印机处理类库，并添加自定义日志和自定义异常处理
  
- 11、Net.CommonLib.Print --打印机处理类库，并添加自定义日志和自定义异常处理
+ 11、Net.CommonLib.Prism --WPF界面框架Prism模板，可参考实现其他项目。
  
- 12、Net.CommonLib.Prism --WPF界面框架Prism模板，可参考实现其他项目。
+ 12、Net.CommonLib.SocketComm --Socket通迅处理类库，并添加自定义日志和自定义异常处理
  
- 13、Net.CommonLib.SocketComm --Socket通迅处理类库，并添加自定义日志和自定义异常处理
+ 13、Net.CommonLib.UnitTest --单元测试处理，用于测试其他类库实现方法
  
- 14、Net.CommonLib.UnitTest --单元测试处理，用于测试其他类库实现方法
+ 14、Net.CommonLib.Util --工具类库，包括常用处理功能
  
- 15、Net.CommonLib.Util --工具类库，包括常用处理功能
- 
- 16、Net.CommonLib.WebsphereQueue --IBM消息队列WebsphereQueue处理类库二次封装，并添加自定义日志和自定义异常处理

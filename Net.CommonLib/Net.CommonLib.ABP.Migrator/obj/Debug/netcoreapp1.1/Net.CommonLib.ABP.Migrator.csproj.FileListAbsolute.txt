@@ -1,6 +1,0 @@
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Migrator\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.Migrator.deps.json
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Migrator\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.Migrator.dll
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Migrator\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.Migrator.pdb
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Migrator\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.Migrator.AssemblyInfo.cs
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Migrator\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.Migrator.dll
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.Migrator\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.Migrator.pdb

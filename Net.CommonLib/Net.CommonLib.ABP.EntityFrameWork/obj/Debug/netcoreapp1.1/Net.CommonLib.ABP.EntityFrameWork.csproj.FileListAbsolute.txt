@@ -1,6 +1,0 @@
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.EntityFrameWork\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.EntityFrameWork.deps.json
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.EntityFrameWork\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.EntityFrameWork.dll
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.EntityFrameWork\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.EntityFrameWork.pdb
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.EntityFrameWork\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.EntityFrameWork.AssemblyInfo.cs
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.EntityFrameWork\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.EntityFrameWork.dll
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.EntityFrameWork\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.EntityFrameWork.pdb

@@ -1,9 +1,0 @@
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.MVCWeb\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.MVCWeb.deps.json
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.MVCWeb\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.MVCWeb.runtimeconfig.json
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.MVCWeb\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.MVCWeb.runtimeconfig.dev.json
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.MVCWeb\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.MVCWeb.dll
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.MVCWeb\bin\Debug\netcoreapp1.1\Net.CommonLib.ABP.MVCWeb.pdb
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.MVCWeb\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.MVCWeb.csprojResolveAssemblyReference.cache
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.MVCWeb\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.MVCWeb.AssemblyInfo.cs
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.MVCWeb\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.MVCWeb.dll
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.ABP.MVCWeb\obj\Debug\netcoreapp1.1\Net.CommonLib.ABP.MVCWeb.pdb

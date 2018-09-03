@@ -17,6 +17,7 @@ namespace Net.CommonLib.ActiveMqQueue
     {
         private string logName = "ActiveMqQueueLog";
 
+
         private static ActiveMqQueueLog instance = null;
 
         public static ActiveMqQueueLog Instance

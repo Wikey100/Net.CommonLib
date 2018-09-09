@@ -1,6 +1,0 @@
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.SocketComm\bin\Debug\Net.CommonLib.SocketComm.dll
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.SocketComm\bin\Debug\Net.CommonLib.SocketComm.pdb
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.SocketComm.dll
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Debug\bin\Net.CommonLib.SocketComm.pdb
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.SocketComm\obj\Debug\Net.CommonLib.SocketComm.dll
-G:\02gitHubProject\Net.CommonLib\Net.CommonLib\Net.CommonLib.SocketComm\obj\Debug\Net.CommonLib.SocketComm.pdb

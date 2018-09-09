@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.Log", "Net.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.Util", "Net.CommonLib.Util\Net.CommonLib.Util.csproj", "{BD0F2732-8C7D-4A9E-B0A1-5E1880869A04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.Message", "Net.CommonLib.Message\Net.CommonLib.Message.csproj", "{308F0F55-87E7-4269-8281-EBFD2B36A366}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.Ftp", "Net.CommonLib.Ftp\Net.CommonLib.Ftp.csproj", "{E880F988-18B7-4113-AFD1-35A7F9ABD31C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.CommonLib.ExcelReport", "Net.CommonLib.ExcelReport\Net.CommonLib.ExcelReport.csproj", "{47A851C5-6A62-4F41-923B-3159D7F2A605}"
@@ -59,10 +57,6 @@ Global
 		{BD0F2732-8C7D-4A9E-B0A1-5E1880869A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD0F2732-8C7D-4A9E-B0A1-5E1880869A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD0F2732-8C7D-4A9E-B0A1-5E1880869A04}.Release|Any CPU.Build.0 = Release|Any CPU
-		{308F0F55-87E7-4269-8281-EBFD2B36A366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{308F0F55-87E7-4269-8281-EBFD2B36A366}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{308F0F55-87E7-4269-8281-EBFD2B36A366}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{308F0F55-87E7-4269-8281-EBFD2B36A366}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E880F988-18B7-4113-AFD1-35A7F9ABD31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E880F988-18B7-4113-AFD1-35A7F9ABD31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E880F988-18B7-4113-AFD1-35A7F9ABD31C}.Release|Any CPU.ActiveCfg = Release|Any CPU

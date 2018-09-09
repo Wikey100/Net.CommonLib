@@ -25,9 +25,7 @@ Net.CommonLib项目是积累下的包括各种功能的第二次高级封装的�
  
  11、Net.CommonLib.Prism --WPF界面框架Prism模板，可参考实现其他项目。
  
- 12、Net.CommonLib.SocketComm --Socket通迅处理类库，并添加自定义日志和自定义异常处理
+ 12、Net.CommonLib.UnitTest --单元测试处理，用于测试其他类库实现方法
  
- 13、Net.CommonLib.UnitTest --单元测试处理，用于测试其他类库实现方法
- 
- 14、Net.CommonLib.Util --工具类库，包括常用处理功能
+ 13、Net.CommonLib.Util --工具类库，包括常用处理功能
  

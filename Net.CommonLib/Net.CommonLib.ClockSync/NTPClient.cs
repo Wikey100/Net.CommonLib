@@ -112,24 +112,24 @@ namespace Net.CommonLib.ClockSync
 
             try
             {
-                //Log.Instance.LogNtpInfo(string.Format("开始与{0}时钟同步...", this.timeServerHost));
+                ClockSyncLog.Instance.Info(string.Format("开始与{0}时钟同步...", this.timeServerHost));
 
                 timeSocket = new UdpClient();
                 IPEndPoint ephost = new IPEndPoint(IPAddress.Parse(timeServerHost), 0x7b);
                 timeSocket.Connect(ephost);
 
-                //Log.Instance.LogNtpInfo("时钟源连接已建立.");
+                ClockSyncLog.Instance.Info("时钟源连接已建立.");
 
                 this.Initialize();
                 timeSocket.Send(this.NTPData, this.NTPData.Length);
 
-                //Log.Instance.LogNtpInfo("数据已发送到时钟源.");
+                ClockSyncLog.Instance.Info("数据已发送到时钟源.");
 
                 this.NTPData = this.ReceiveMessage(timeSocket, ephost);
 
                 if ((this.NTPData != null) && this.IsResponseValid())
                 {
-                    //Log.Instance.LogNtpInfo("接收到时钟数据.");
+                    ClockSyncLog.Instance.Info("接收到时钟数据.");
                     this.ReceptionTimestamp = DateTime.Now;
                     success = true;
                 }
@@ -140,16 +140,16 @@ namespace Net.CommonLib.ClockSync
                 }
                 else
                 {
-                    //Log.Instance.LogNtpError("未接收到时钟源数据!");
+                    ClockSyncLog.Instance.Info("未接收到时钟源数据!");
                 }
             }
             catch (InvalidOperationException ioe)
             {
-                //Log.Instance.LogNtpError("时钟同步失败.", ioe);
+                ClockSyncLog.Instance.Info("时钟同步失败.", ioe);
             }
             catch (Exception ex)
             {
-                //Log.Instance.LogNtpError("时钟同步失败.", ex);
+                ClockSyncLog.Instance.Info("时钟同步失败.", ex);
             }
             finally
             {
@@ -310,8 +310,8 @@ namespace Net.CommonLib.ClockSync
             TimeSpan diff = trts.Subtract(this.ReceptionTimestamp);
             if (SetLocalTime(ref st))
             {
-                //Log.Instance.LogNtpInfo(
-                //    string.Format("时钟同步成功,时钟误差{0}秒.", Math.Round(diff.TotalSeconds, 5)));
+                ClockSyncLog.Instance.Info(
+                    string.Format("时钟同步成功,时钟误差{0}秒.", Math.Round(diff.TotalSeconds, 5)));
                 return true;
             }
             throw new InvalidOperationException(

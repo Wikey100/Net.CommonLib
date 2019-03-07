@@ -13,20 +13,21 @@ using System;
 
 namespace Net.CommonLib.ActiveMqQueue
 {
-    public class ActiveMqQueueLog : ILog
+    [Serializable]
+    public class Log : ILog
     {
         private string logName = "ActiveMqQueueLog";
 
 
-        private static ActiveMqQueueLog instance = null;
+        private static Log instance = null;
 
-        public static ActiveMqQueueLog Instance
+        public static Log Instance
         {
             get
             {
                 if (instance == null)
                 {
-                    instance = new ActiveMqQueueLog();
+                    instance = new Log();
                 }
                 return instance;
             }

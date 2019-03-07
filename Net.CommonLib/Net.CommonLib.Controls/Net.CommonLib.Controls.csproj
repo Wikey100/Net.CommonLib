@@ -69,5 +69,9 @@
       <Name>Net.CommonLib.Log</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Readme\Readme.txt" />
+    <Content Include="Readme\ReleaseNotes.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

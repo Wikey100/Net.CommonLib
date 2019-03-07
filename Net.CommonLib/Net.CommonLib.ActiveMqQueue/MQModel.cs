@@ -7,10 +7,6 @@
  * *修改时间      修改人    修改内容概要
  * *2019-03-06    xwj       新增
  * *******************************************************************/
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Net.CommonLib.ActiveMqQueue
 {

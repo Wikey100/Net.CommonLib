@@ -16,19 +16,19 @@ using Net.CommonLib.Log;
 
 namespace Net.CommonLib.RabbitMQQueue
 {
-    public class RabbitMQQueueLog : ILog
+    public class Log : ILog
     {
         private string logName = "RabbitMQQueueLog";
 
-        private static RabbitMQQueueLog instance = null;
+        private static Log instance = null;
 
-        public static RabbitMQQueueLog Instance
+        public static Log Instance
         {
             get
             {
                 if (instance==null)
                 {
-                    instance = new RabbitMQQueueLog();
+                    instance = new Log();
                 }
                 return instance;
             }

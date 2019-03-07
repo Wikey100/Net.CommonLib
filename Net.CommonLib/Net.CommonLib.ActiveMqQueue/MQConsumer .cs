@@ -7,6 +7,7 @@
  * *修改时间      修改人    修改内容概要
  * *2019-03-06    xwj       新增
  * *******************************************************************/
+
 using Apache.NMS;
 using Apache.NMS.ActiveMQ;
 using Apache.NMS.ActiveMQ.Commands;
@@ -21,8 +22,9 @@ namespace Net.CommonLib.ActiveMqQueue
     public class MQConsumer
     {
         #region 字段/属性
+
         /// <summary>
-        /// 
+        ///连接地址
         /// </summary>
         private string mqURL = string.Empty;
 
@@ -39,12 +41,13 @@ namespace Net.CommonLib.ActiveMqQueue
         /// <summary>
         /// 生产者约定消息主题
         /// </summary>
-        private string activeQueueTopicName = string.Empty;
+        private string activeQueueTopicName = "ProduceTopicName";
 
-        #endregion
+        #endregion 字段/属性
 
         #region 构造函数
-        public MQConsumer(string mqUrl,string mqUserName,string mqUserPWD,string activeQueueTopicName)
+
+        public MQConsumer(string mqUrl, string mqUserName, string mqUserPWD, string activeQueueTopicName)
         {
             this.mqURL = mqUrl;
             this.mqUserName = mqUserName;
@@ -52,7 +55,7 @@ namespace Net.CommonLib.ActiveMqQueue
             this.activeQueueTopicName = activeQueueTopicName;
         }
 
-        #endregion
+        #endregion 构造函数
 
         #region 方法
 
@@ -77,7 +80,7 @@ namespace Net.CommonLib.ActiveMqQueue
             }
             catch (Exception ex)
             {
-                Log.Instance.Error("初始化MQ会话出现错误",ex);
+                Log.Instance.Error("初始化MQ会话出现错误", ex);
                 throw new Exception(ex.Message);
             }
         }
@@ -100,7 +103,7 @@ namespace Net.CommonLib.ActiveMqQueue
             }
             catch (Exception ex)
             {
-                Log.Instance.Error("注册监听事件出现错误",ex);
+                Log.Instance.Error("注册监听事件出现错误", ex);
                 throw new Exception(ex.Message);
             }
         }
@@ -114,7 +117,7 @@ namespace Net.CommonLib.ActiveMqQueue
         {
             try
             {
-                Log.Instance.Info(string.Format("接收消息字节流:{0}",msg));
+                Log.Instance.Info(string.Format("接收消息字节流:{0}", msg));
                 DataContractJsonSerializer seralizer = new DataContractJsonSerializer(typeof(MQModel));
                 MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(msg));
                 object obj = seralizer.ReadObject(stream);
@@ -128,6 +131,6 @@ namespace Net.CommonLib.ActiveMqQueue
             }
         }
 
-        #endregion
+        #endregion 方法
     }
 }
